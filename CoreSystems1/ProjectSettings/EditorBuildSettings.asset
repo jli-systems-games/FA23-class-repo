@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Main Screen.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Level Selection.unity
+    guid: a0379ed97c522c6489fefa7ac4c917b3
+  - enabled: 1
+    path: Assets/Scenes/Taxi Easy Mode.unity
+    guid: ecfeb408784aaff4e90c02875e9e139a
+  - enabled: 1
+    path: Assets/Scenes/Taxi Hard Mode.unity
+    guid: db54912069d24534d9915f4cedd2a763
   m_configObjects: {}
