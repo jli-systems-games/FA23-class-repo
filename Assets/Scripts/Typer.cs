@@ -33,7 +33,7 @@ public class Typer : MonoBehaviour
     void SetRemainingWord(string newString)
     {
         remainingWord = newString;
-        wordOutput.text = "<b>" + typedWord + "</b>" + "<color=#40484a>" + remainingWord + "</color>";//Creates color difference between word already typed and not yet typed
+        wordOutput.text = "<b>" + typedWord + "</b>" + "<i>"+"<color=#657f8c>" + remainingWord + "</color>"+"</i>";//Creates color difference between word already typed and not yet typed
     }
 
     // Update is called once per frame

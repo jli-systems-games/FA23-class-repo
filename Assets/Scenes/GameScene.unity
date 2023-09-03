@@ -227,8 +227,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: You are typing...
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: fc563fb2a0df9f6419612a5ca18e7ecc, type: 2}
+  m_sharedMaterial: {fileID: -7812656761020195355, guid: fc563fb2a0df9f6419612a5ca18e7ecc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -342,8 +342,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: fc563fb2a0df9f6419612a5ca18e7ecc, type: 2}
+  m_sharedMaterial: {fileID: -7812656761020195355, guid: fc563fb2a0df9f6419612a5ca18e7ecc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -819,8 +819,8 @@ MonoBehaviour:
     and overwhelmed by everything, but I promise I do care. I've missed you. Let's
     hang soon?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d319279dd5f0e4e43b897ee5b3499f70, type: 2}
+  m_sharedMaterial: {fileID: 8168804644255226789, guid: d319279dd5f0e4e43b897ee5b3499f70, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
