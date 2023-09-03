@@ -2,18 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class Typer : MonoBehaviour
 {
-    public TextMeshProUGUI wordOutput; //testing repo change
+    public TextMeshProUGUI wordOutput; 
     public TextMeshProUGUI timer;
     public GameObject spawner;
     PopUpSpawner popUpSpawner;
 
     private string remainingWord;
     private string typedWord;
-    private string currentWord = "I'm sorry that I hurt you.";
+    public string currentWord = "Hi Moth, I'm sorry that I hurt you. I've been really busy and overwhelmed by everything, but I promise I do care. I've missed you. Let's hang soon?";
     public float timeRemaining = 60;
 
     void Start()
@@ -49,7 +50,7 @@ public class Typer : MonoBehaviour
         else if(timeRemaining <= 0 && !IsComplete()) //Run out of time
         {
             Debug.Log("Failed");
-            //TODO: Program switch to failure screen
+            SceneManager.LoadScene("BadEnd");
         }
 
     }
@@ -85,7 +86,7 @@ public class Typer : MonoBehaviour
             if (IsComplete()) //checks if player has completed the typed sentances
             {
                 Debug.Log("Done");
-                //TODO: Add win screen
+                SceneManager.LoadScene("GoodEnd");
 
             }
         }
