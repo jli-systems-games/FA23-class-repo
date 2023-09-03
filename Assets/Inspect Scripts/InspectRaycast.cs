@@ -7,56 +7,49 @@ public class InspectRaycast : MonoBehaviour
 {
     
     [SerializeField] private float rayLength = 1.5f;
-    [SerializeField] private LayerMask layerMaskInteract;
+    [SerializeField] private LayerMask WoodLogs;
 
-    [Header("Turning Off the TV")]
-    [SerializeField] private LayerMask remoteMask;
-    public GameObject TVon;
-    public GameObject TVoff;
-    public AudioSource tvStaticSound;
-    public GameObject TVLIGHT;
-    public GameObject triggerForTVText;
-
-    public AudioSource interactRemoteSound;
-
-    [Header("Crosshair and Icons")]
     public GameObject defaultCrosshair;
-    public GameObject clickablCrosshair;
+    public GameObject clickableCrosshair;
+    
+    public Text MyText;
+    private int score;
     
 
-    private bool doOnce;
-
     // Update is called once per frame
+    void Start()
+    {
+        MyText.text = "";
+    }
     void Update()
     {
+
+        MyText.text = "$" + score;
+
         RaycastHit hit;
         Vector3 fwd = transform.TransformDirection(Vector3.forward);
         
-        if(Physics.Raycast(transform.position, fwd, out hit, rayLength, remoteMask.value))
+        if(Physics.Raycast(transform.position, fwd, out hit, rayLength, WoodLogs.value))
         {
             
             if(Input.GetMouseButtonDown(0))
             {
-                interactRemoteSound.Play();
-                TVon.SetActive(false);
-                TVoff.SetActive(true);
-                TVLIGHT.SetActive(false);
-                tvStaticSound.Stop();
-                triggerForTVText.SetActive(false);
+                score = score + 1;
+
             }
         }
 
-        if(Physics.Raycast(transform.position, fwd, out hit, rayLength, layerMaskInteract.value))
+        if(Physics.Raycast(transform.position, fwd, out hit, rayLength, WoodLogs.value))
         {
             
-            defaultCrosshair.SetActive(true);
-            //clickablCrosshair.SetActive(true);
+            defaultCrosshair.SetActive(false);
+            clickableCrosshair.SetActive(true);
         }
             
         else
         {
-            defaultCrosshair.SetActive(false);
-            //clickablCrosshair.SetActive(false);
+            defaultCrosshair.SetActive(true);
+            clickableCrosshair.SetActive(false);
         }
         
        
@@ -69,3 +62,4 @@ public class InspectRaycast : MonoBehaviour
     
     
 }
+
