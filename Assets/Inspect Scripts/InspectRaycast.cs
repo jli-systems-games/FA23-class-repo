@@ -9,6 +9,8 @@ public class InspectRaycast : MonoBehaviour
     
     [SerializeField] private float rayLength = 1.5f;
     [SerializeField] private LayerMask WoodLogs;
+    public MakeACampfire CampfireScript;
+
 
     [Header("Crosshair UI")]
     public GameObject defaultCrosshair;
@@ -17,14 +19,8 @@ public class InspectRaycast : MonoBehaviour
     public TextMeshProUGUI scoreText;
     private int score;
 
-    // [Header("TreeTrunks")]
-    public MakeACampfire CampfireScript;
-    // public GameObject Tree1 
-    // public GameObject Tree2
-    // public GameObject Tree3
-    // public GameObject Tree4
-    // public GameObject Tree5
 
+   
     
     
 
@@ -35,8 +31,15 @@ public class InspectRaycast : MonoBehaviour
     }
     void Update()
     {
-        
-        
+        if(score == 6)
+        {
+            // Activate the script or perform your desired actions here.
+            MakeACampfire makeACampfire = GetComponent<MakeACampfire>();
+            if (makeACampfire != null)
+            {
+                makeACampfire.enabled = true; // Activate the script.
+            }
+        }
 
         RaycastHit hit;
         Vector3 fwd = transform.TransformDirection(Vector3.forward);
@@ -52,10 +55,8 @@ public class InspectRaycast : MonoBehaviour
               
             }
             
-            //if(score == 6)
-            //{
-                //CampfireScript.enabled = true;
-           //}
+           
+            
         }
 
         if(Physics.Raycast(transform.position, fwd, out hit, rayLength, WoodLogs.value))
@@ -71,15 +72,18 @@ public class InspectRaycast : MonoBehaviour
             clickableCrosshair.SetActive(false);
         }
         
-        void UpdateScoreText()
-        {
-            scoreText.text = "" + score.ToString();
-        }
+    
+    
        
 
 
             
         
+    }
+
+    void UpdateScoreText()
+    {
+        scoreText.text = "" + score.ToString();
     }
 
     

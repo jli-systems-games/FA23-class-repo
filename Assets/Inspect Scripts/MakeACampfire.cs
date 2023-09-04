@@ -13,11 +13,7 @@ public class MakeACampfire : MonoBehaviour
     
   
 
-    // [Header("TreeTrunks")]
-    
-    // public GameObject Tree1 
-    // public GameObject Tree2
-    // public GameObject Tree3
+  
     public GameObject FireParticle;
     public AudioSource FireSound;
     public GameObject Campfire;

@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TMPro;
 public class RaycastForTree4 : MonoBehaviour
 {
     [SerializeField] private float rayLength = 1.5f;
@@ -9,7 +9,8 @@ public class RaycastForTree4 : MonoBehaviour
 
     
     
-    
+    public TextMeshProUGUI scoreText;
+    private int score;
 
     // [Header("TreeTrunks")]
     
@@ -38,10 +39,15 @@ public class RaycastForTree4 : MonoBehaviour
             if(Input.GetMouseButtonDown(0))
             {
                 Tree4.SetActive(false);
-                
+                //score++;
+                //UpdateScoreText();
               
             }
         }
    
     }
+    //void UpdateScoreText()
+    //{
+        //scoreText.text = "" + score.ToString();
+    //}
 }

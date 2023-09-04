@@ -1,17 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TMPro;
 public class RaycastForTree3 : MonoBehaviour
 {
     [SerializeField] private float rayLength = 1.5f;
     [SerializeField] private LayerMask WoodLogs;
 
     
-    
+    public TextMeshProUGUI scoreText;
+    private int score;
     
 
-    [Header("TreeTrunks")]
+
     
     
     
@@ -38,9 +39,14 @@ public class RaycastForTree3 : MonoBehaviour
             if(Input.GetMouseButtonDown(0))
             {
                 Tree3.SetActive(false);
-                
+                //score++;
+                //UpdateScoreText();
             }
         }
    
     }
+    //void UpdateScoreText()
+    //{
+        //scoreText.text = "" + score.ToString();
+    //}
 }

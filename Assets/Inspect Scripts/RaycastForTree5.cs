@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TMPro;
 public class RaycastForTree5 : MonoBehaviour
 {
     [SerializeField] private float rayLength = 1.5f;
     [SerializeField] private LayerMask WoodLogs;
 
-    
+    public TextMeshProUGUI scoreText;
+    private int score;
     
     
 
@@ -38,10 +39,15 @@ public class RaycastForTree5 : MonoBehaviour
             if(Input.GetMouseButtonDown(0))
             {
                 Tree5.SetActive(false);
-                
+                //score ++;
+                //UpdateScoreText();
               
             }
         }
    
     }
+    //void UpdateScoreText()
+    //{
+        //scoreText.text = "" + score.ToString();
+    //}
 }
