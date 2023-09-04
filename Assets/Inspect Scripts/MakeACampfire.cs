@@ -1,38 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using TMPro;
 
-public class InspectRaycast : MonoBehaviour
+public class MakeACampfire : MonoBehaviour
 {
-    
     [SerializeField] private float rayLength = 1.5f;
-    [SerializeField] private LayerMask WoodLogs;
+    [SerializeField] private LayerMask WoodInt;
 
     [Header("Crosshair UI")]
     public GameObject defaultCrosshair;
     public GameObject clickableCrosshair;
     
-    public TextMeshProUGUI scoreText;
-    private int score;
+  
 
     // [Header("TreeTrunks")]
-    public MakeACampfire CampfireScript;
+    
     // public GameObject Tree1 
     // public GameObject Tree2
     // public GameObject Tree3
-    // public GameObject Tree4
-    // public GameObject Tree5
-
+    public GameObject FireParticle;
+    public AudioSource FireSound;
+    public GameObject Campfire;
+    
     
     
 
     // Update is called once per frame
-    void Start()
-    {
-        score = 0;
-    }
+   
     void Update()
     {
         
@@ -41,24 +35,19 @@ public class InspectRaycast : MonoBehaviour
         RaycastHit hit;
         Vector3 fwd = transform.TransformDirection(Vector3.forward);
         
-        if(Physics.Raycast(transform.position, fwd, out hit, rayLength, WoodLogs.value))
+        if(Physics.Raycast(transform.position, fwd, out hit, rayLength, WoodInt.value))
         {
             
             if(Input.GetMouseButtonDown(0))
             {
-                score++;
-                UpdateScoreText();
+                Campfire.SetActive(true);
+                StartCoroutine(StartCampfire());
                 
               
             }
-            
-            //if(score == 6)
-            //{
-                //CampfireScript.enabled = true;
-           //}
         }
 
-        if(Physics.Raycast(transform.position, fwd, out hit, rayLength, WoodLogs.value))
+        if(Physics.Raycast(transform.position, fwd, out hit, rayLength, WoodInt.value))
         {
             
             defaultCrosshair.SetActive(false);
@@ -71,20 +60,18 @@ public class InspectRaycast : MonoBehaviour
             clickableCrosshair.SetActive(false);
         }
         
-        void UpdateScoreText()
-        {
-            scoreText.text = "" + score.ToString();
-        }
+        
        
 
 
             
         
     }
+    public IEnumerator StartCampfire()
+    {
+        yield return new WaitForSeconds(4);
+        FireSound.Play();
+        FireParticle.SetActive(true);
 
-    
-
-    
-    
+    }
 }
-
