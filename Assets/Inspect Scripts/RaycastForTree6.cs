@@ -18,10 +18,10 @@ public class RaycastForTree6 : MonoBehaviour
     // public GameObject Tree2
     // public GameObject Tree3
     // public GameObject Tree4
-    // public GameObject Tree5
+    public GameObject Tree5;
 
     public GameObject Tree6;
-    
+    public AudioSource Pickup;
 
     // Update is called once per frame
    
@@ -39,8 +39,10 @@ public class RaycastForTree6 : MonoBehaviour
             if(Input.GetMouseButtonDown(0))
             {
                 Tree6.SetActive(false);
+                Pickup.Play();
                 //score ++;
                 //UpdateScoreText();
+                
               
             }
         }

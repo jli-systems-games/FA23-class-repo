@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MakeACampfire : MonoBehaviour
 {
@@ -19,7 +20,7 @@ public class MakeACampfire : MonoBehaviour
     public GameObject Campfire;
     
     
-    
+    public Animator FadeScreen;
 
     // Update is called once per frame
    
@@ -68,6 +69,19 @@ public class MakeACampfire : MonoBehaviour
         yield return new WaitForSeconds(4);
         FireSound.Play();
         FireParticle.SetActive(true);
+        StartCoroutine(FadeOutTimer());
 
     }
+
+    public IEnumerator FadeOutTimer()
+    {
+        yield return new WaitForSeconds(8);
+        FadeScreen.SetTrigger("FadeEnd");
+        StartCoroutine(EndGame());
+    }
+     public IEnumerator EndGame()
+     {
+        yield return new WaitForSeconds(4);
+        SceneManager.LoadScene(0);
+     }
 }

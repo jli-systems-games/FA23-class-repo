@@ -19,7 +19,7 @@ public class RaycastForTree3 : MonoBehaviour
     public GameObject Tree3;
     
     
-
+    public AudioSource Pickup;
     
     
 
@@ -39,6 +39,7 @@ public class RaycastForTree3 : MonoBehaviour
             if(Input.GetMouseButtonDown(0))
             {
                 Tree3.SetActive(false);
+                Pickup.Play();
                 //score++;
                 //UpdateScoreText();
             }

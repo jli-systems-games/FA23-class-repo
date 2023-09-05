@@ -19,7 +19,7 @@ public class InspectRaycast : MonoBehaviour
     public TextMeshProUGUI scoreText;
     private int score;
 
-
+    public Animator EndObjective;
    
     
     
@@ -31,14 +31,12 @@ public class InspectRaycast : MonoBehaviour
     }
     void Update()
     {
-        if(score == 6)
+        if(scoreText.text == "6")
         {
-            // Activate the script or perform your desired actions here.
-            MakeACampfire makeACampfire = GetComponent<MakeACampfire>();
-            if (makeACampfire != null)
-            {
-                makeACampfire.enabled = true; // Activate the script.
-            }
+            
+            
+            CampfireScript.enabled = true; 
+            EndObjective.SetTrigger("ObjectiveAnim");
         }
 
         RaycastHit hit;
@@ -49,6 +47,7 @@ public class InspectRaycast : MonoBehaviour
             
             if(Input.GetMouseButtonDown(0))
             {
+                
                 score++;
                 UpdateScoreText();
                 

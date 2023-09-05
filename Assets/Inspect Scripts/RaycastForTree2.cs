@@ -20,7 +20,7 @@ public class RaycastForTree2 : MonoBehaviour
     // public GameObject Tree4
     // public GameObject Tree5
 
-    
+    public AudioSource Pickup;
     
 
     // Update is called once per frame
@@ -38,6 +38,7 @@ public class RaycastForTree2 : MonoBehaviour
             
             if(Input.GetMouseButtonDown(0))
             {
+                Pickup.Play();
                 //score ++;
                 //UpdateScoreText();
                 Tree2.SetActive(false);
