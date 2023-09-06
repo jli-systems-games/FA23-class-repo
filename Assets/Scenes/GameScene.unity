@@ -1073,7 +1073,7 @@ MonoBehaviour:
   currentWord: Hi Mothy, I didn't mean to hurt you and I'm sorry :( I've been really
     busy and overwhelmed by everything, but I promise I do care. I've missed you.
     Let's hang soon?
-  timeRemaining: 90
+  timeRemaining: 60
 --- !u!4 &1466596675
 Transform:
   m_ObjectHideFlags: 0
