@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class Building : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+ 
     void Update()
     {
-        
+        this.GetComponent<Rigidbody>().AddForce(0.5f,0,0,ForceMode.Force);
+
+        if (this.transform.position.x >= -20)
+        {
+            endSequence();
+        }
+    }
+
+    public void endSequence()
+    {
+        Destroy(this);
+        Debug.Log("dsf");
     }
 }
