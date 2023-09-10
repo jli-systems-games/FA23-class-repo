@@ -17,7 +17,6 @@ public class Building : MonoBehaviour
 
     public void endSequence()
     {
-        Destroy(this);
         Debug.Log("dsf");
     }
 }
