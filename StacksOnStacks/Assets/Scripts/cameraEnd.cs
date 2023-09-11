@@ -5,12 +5,12 @@ using DG.Tweening;
 
 public class cameraEnd : MonoBehaviour
 {
-    public float endX = 5.83f;
-    public float endY = 2.88f;
-    public float endZ = -3.3f;
+    public float endX = -2.49f;
+    public float endY = 1.36f;
+    public float endZ = -6.55f;
 
-    public float endXR = 33.8f;
-    public float endYR = 28.4f;
+    public float endXR = 23f;
+    public float endYR = 27f;
 
     [SerializeField] private float _cycles = 2;
 
