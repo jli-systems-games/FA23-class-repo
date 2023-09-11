@@ -8,7 +8,7 @@ public class Points : MonoBehaviour
     public int points;
     public GameObject spawner;
     public GameObject block;
-    public TextMeshProUGUI score;
+    public static TextMeshProUGUI score;
     public Camera cam;
     public Canvas Canvas;
 
@@ -22,9 +22,13 @@ public class Points : MonoBehaviour
     }
     void OnCollisionEnter(Collision collision)
     {
+        var rb = GetComponent<Rigidbody>();
+
         if (collision.gameObject.tag == "Building")
         {
+           
             points++;
+            droppingCube.speed = droppingCube.speed +5;
             score.text = points.ToString();
             if (spawner.transform.childCount<1) { 
             var newBlock=Instantiate(block, spawner.transform.position, Quaternion.identity);

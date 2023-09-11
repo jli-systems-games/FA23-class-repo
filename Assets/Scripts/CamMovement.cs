@@ -27,8 +27,8 @@ public class CamMovement : MonoBehaviour
 
         if (currentCount < currentScore)
         {
-            Camera.main.transform.Translate(0, 4, 0);
-            spawner.transform.Translate(0, 4, 0);
+            Camera.main.transform.Translate(0, 5, 0);
+            spawner.transform.Translate(0, 5, 0);
             currentCount = currentScore;
 
         }
