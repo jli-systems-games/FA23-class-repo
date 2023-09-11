@@ -10,6 +10,10 @@ public class outBounds : MonoBehaviour
 
     public AudioSource bruh;
 
+    public float pancakeSpawnX = -2.56f;
+    public float pancakeSpawnY = 1.54f;
+    public float pancakeSpawnZ = -5.82f;
+
     void OnTriggerEnter(Collider collision)
     {
         if (collision.gameObject.tag == "pancake")
@@ -23,7 +27,7 @@ public class outBounds : MonoBehaviour
     private IEnumerator makeNewPancake()
     {
         yield return new WaitForSeconds(timeBeforeRespawn);
-        Instantiate(pancakeSingle, new Vector3(5, 3, -2), Quaternion.Euler(-90, 0, 0));
+        Instantiate(pancakeSingle, new Vector3(pancakeSpawnX, pancakeSpawnY, pancakeSpawnZ), Quaternion.Euler(-90, 0, 0));
 
     }
 }

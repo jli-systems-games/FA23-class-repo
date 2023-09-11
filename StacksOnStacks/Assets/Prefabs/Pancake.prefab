@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 1935450140913895722}
   - component: {fileID: 3824728547031693128}
   - component: {fileID: 1330113044284585977}
-  - component: {fileID: 2538770796827870216}
   m_Layer: 0
   m_Name: Pancake
   m_TagString: pancake
@@ -134,7 +133,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &1330113044284585977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,20 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 831756859b00b491bae62494c822ba45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Intensity: 1
+  Intensity: 10
   Mass: 1
   stiffness: 1
   damping: 0.75
---- !u!114 &2538770796827870216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5446949625145482462}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10300ea7c88274e12a5e13d56f22b5a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreValue: 1
