@@ -4,19 +4,18 @@ using UnityEngine;
 
 public class Building : MonoBehaviour
 {
+    public Vector3 theVector = new Vector3 (0,0,0);
+    public Vector3 goVector = new Vector3 (3, 0, 0);
  
-    void Update()
+    public void startGoing()
     {
-        this.GetComponent<Rigidbody>().AddForce(0.5f,0,0,ForceMode.Force);
+        this.GetComponent<Rigidbody>().velocity = goVector;
 
-        if (this.transform.position.x >= -20)
-        {
-            endSequence();
-        }
+        
     }
 
     public void endSequence()
     {
-        Debug.Log("dsf");
+        this.GetComponent<Rigidbody>().velocity = theVector;
     }
 }

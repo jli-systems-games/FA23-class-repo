@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro.Examples;
 using UnityEngine;
 
 public class dropController : MonoBehaviour
@@ -14,10 +15,26 @@ public class dropController : MonoBehaviour
     public GameObject section3;
     public GameObject section4;
 
+    public GameObject perfectsection1;
+    public GameObject perfectsection2;
+    public GameObject perfectsection3;
+    public GameObject perfectsection4;
+
+    public GameObject completeScreen;
+
     public int counter = 0;
     public int otherCounter = 0;
+    public float sec1diff;
+    public float sec2diff;
+    public float sec3diff;
+    public float sec4diff;
+    public float points;
+
+
+    public Vector3 theVector = new Vector3 (0,0,0);
 
     public bool going = false;
+
 
     void Start()
     {
@@ -52,16 +69,16 @@ public class dropController : MonoBehaviour
         switch (counter)
         {
             case 4:
-                buildScript4.enabled = true;
+                buildScript4.startGoing();
                 break;
             case 3:
-                buildScript3.enabled = true;
+                buildScript3.startGoing();
                 break;
             case 2:
-                buildScript2.enabled = true;
+                buildScript2.startGoing();
                 break;
             case 1:
-                buildScript1.enabled = true;
+                buildScript1.startGoing();
                 break;
             default:
                 break;
@@ -70,19 +87,49 @@ public class dropController : MonoBehaviour
         switch (otherCounter)
         {
             case 4: 
-                buildScript4.enabled = false;
+                section4.GetComponent<Rigidbody>().velocity = theVector;
+                section4.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ | RigidbodyConstraints.FreezeRotationX| RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionZ;
+                calculateDifference4();
                 break;
             case 3: 
-                buildScript3.enabled = false;
+                section3.GetComponent<Rigidbody>().velocity = theVector;
+                section3.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionZ;
+                calculateDifference3();
                 break;
             case 2: 
-                buildScript2.enabled = false;
+                section2.GetComponent<Rigidbody>().velocity = theVector;
+                section2.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionZ;
+                calculateDifference2();
                 break;
             case 1: 
-                buildScript1.enabled = false;
+                section1.GetComponent<Rigidbody>().velocity = theVector;
+                section1.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ | RigidbodyConstraints.FreezeRotationX |RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionZ;
+                calculateDifference1();
                 break;
             default:
                 break;
         }
+        
+        
+    }
+
+    public void calculateDifference1()
+    {
+        sec1diff = perfectsection1.transform.position.x - section1.transform.position.x;
+    }
+
+    public void calculateDifference2()
+    {
+        sec2diff = perfectsection1.transform.position.x - section1.transform.position.x;
+    }
+
+    public void calculateDifference3()
+    {
+        sec3diff = perfectsection1.transform.position.x - section1.transform.position.x;
+    }
+
+    public void calculateDifference4()
+    {
+        sec4diff = perfectsection1.transform.position.x - section1.transform.position.x;
     }
 }

@@ -15,11 +15,18 @@ public class gameManager : MonoBehaviour
 
     void Start()
     {
-        ScoreIncreased = IncreaseScore;
+        ScoreIncreased += IncreaseScore;
+        ScoreIncreased += DoThis;
     }
+
     public void IncreaseScore(int x)
     {
         score++;
         scoreTMP.text = score.ToString();
+    }
+
+    public void DoThis(int y)
+    {
+        
     }
 }
