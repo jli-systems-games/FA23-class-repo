@@ -2,7 +2,22 @@ fileFormatVersion: 2
 guid: 548f2b7bbfe724005ace438d95e1ec2d
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wire_008008136
+    second: {fileID: 2100000, guid: b11d772171d694c788e28696ed1ef9c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wire_057008136
+    second: {fileID: 2100000, guid: 3cd05438a890f4db0aab5c16a5580eef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wire_225087143
+    second: {fileID: 2100000, guid: a11731371f0d24f9c88745f1f37f86ca, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
