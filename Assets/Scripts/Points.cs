@@ -26,7 +26,7 @@ public class Points : MonoBehaviour
 
     private void Update()
     {
-        if (spawner.transform.childCount == 1 && Input.GetKeyDown("space"))
+        if (spawner.transform.childCount <= 1 && Input.GetKeyDown("space"))
         {
             points++;
             droppingCube.speed = droppingCube.speed + 5;
