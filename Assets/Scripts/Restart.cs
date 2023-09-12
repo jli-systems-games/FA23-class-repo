@@ -7,24 +7,16 @@ using UnityEngine.SceneManagement;
 
 public class Restart : MonoBehaviour
 {
-    //public int points;
-    public  TextMeshProUGUI score;
-    PersistPoints pp;
-    public GameObject persist;
-    private void Start()
+
+    public TextMeshProUGUI score;
+
+    void Start()
     {
-        GameObject textbox = GameObject.Find("Score");
-        GameObject persist = GameObject.Find("Persist");
-        pp = persist.GetComponent<PersistPoints>();
-        var final = PersistPoints.points;
-        score.text = final.ToString();
-        PersistPoints.points = 0;
-        Destroy(persist);
+        score.text = GameObject.Find("PointsController").GetComponent<PointsObject>().points.ToString();
     }
     public void OnButtonClick()
     {
-       
+        Destroy(GameObject.Find("PointsController"));
         SceneManager.LoadScene("GameScene");
-        
     }
 }
