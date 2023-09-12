@@ -11,10 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DropTubes.unity
     guid: 5d6525d76b635984190998567a644970
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Shop.unity
     guid: 0a1fc409f7ff96946ba4e3bd242c2c79
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/GameComplete.unity
     guid: ed4463e4e0e41fc4cafcc459063f3b0a
   m_configObjects: {}

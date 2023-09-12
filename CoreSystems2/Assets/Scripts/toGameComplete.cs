@@ -10,6 +10,7 @@ public class toGameComplete : MonoBehaviour
 
     public TMP_Text moneyEarnedText;
     public TMP_Text moneyTotalText;
+    public TMP_Text bottomline;
 
     public GameObject scriptHolder;
     public goldCalclator thescript;
@@ -26,8 +27,30 @@ public class toGameComplete : MonoBehaviour
 
     public void updateMoney()
     {
-        moneyTotal = moneyTotal + thescript.totalgold;
+        //Debug.Log("running");
+        if (thescript.totalgold>moneyTotal)
+        {
+            moneyTotal = thescript.totalgold;
+        }
         moneyEarnedText.text = " " + thescript.totalgold;
         moneyTotalText.text = " " + moneyTotal;
+
+        if(thescript.totalgold<-100)
+        {
+            bottomline.text = "Forget the aliens. How did you score this";
+        }
+
+        else if (thescript.totalgold<25 && thescript.totalgold>=-100)
+        {
+            bottomline.text = "Your work was so bad. The aliens killed you.";
+        }
+        else if (thescript.totalgold>=25 && thescript.totalgold<35)
+        {
+            bottomline.text = "The aliens have spared you... for now.";
+        }
+        else if (thescript.totalgold>=35)
+        {
+            bottomline.text = "The aliens were impressed and promoted you.";
+        }
     }
 }

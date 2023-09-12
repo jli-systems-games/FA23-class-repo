@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro.Examples;
 using UnityEngine;
+using System;
 
 public class dropController : MonoBehaviour
 {
@@ -38,6 +39,8 @@ public class dropController : MonoBehaviour
 
     void Start()
     {
+
+        //GameObject.FindGameObjectWithTag("Music").GetComponent<musicController>().PlayMusic();
         buildScript1 = section1.GetComponent<Building>();
         buildScript2 = section2.GetComponent<Building>();
         buildScript3 = section3.GetComponent<Building>();
@@ -107,6 +110,10 @@ public class dropController : MonoBehaviour
                 calculateDifference1();
                 break;
             default:
+                sec1diff = 1;
+                sec2diff = 1;
+                sec3diff = 1;
+                sec4diff = 1;
                 break;
         }
         
@@ -115,21 +122,41 @@ public class dropController : MonoBehaviour
 
     public void calculateDifference1()
     {
-        sec1diff = perfectsection1.transform.position.x - section1.transform.position.x;
+        sec1diff = Math.Abs(perfectsection1.transform.position.x - section1.transform.position.x);
+        if (sec1diff*10>10)
+        {
+            sec1diff = 1;
+        }
+        Debug.Log(sec1diff*10);
     }
 
     public void calculateDifference2()
     {
-        sec2diff = perfectsection1.transform.position.x - section1.transform.position.x;
+        sec2diff = Math.Abs(perfectsection2.transform.position.x - section2.transform.position.x);
+        if (sec2diff*10>10)
+        {
+            sec2diff = 1;
+        }
+        Debug.Log(sec2diff*10);
     }
 
     public void calculateDifference3()
     {
-        sec3diff = perfectsection1.transform.position.x - section1.transform.position.x;
+        sec3diff = Math.Abs(perfectsection3.transform.position.x - section3.transform.position.x);
+        if (sec3diff*10>10)
+        {
+            sec3diff = 1;
+        }
+        Debug.Log(sec3diff*10);
     }
 
     public void calculateDifference4()
     {
-        sec4diff = perfectsection1.transform.position.x - section1.transform.position.x;
+        sec4diff = Math.Abs(perfectsection4.transform.position.x - section4.transform.position.x);
+        if (sec4diff*10>10)
+        {
+            sec4diff = 1;
+        }
+        Debug.Log(sec4diff*10);
     }
 }

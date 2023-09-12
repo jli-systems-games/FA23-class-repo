@@ -7,6 +7,6 @@ public class toShop : MonoBehaviour
 {
    public void switchToShop()
     {
-        SceneManager.LoadScene("Shop");
+        SceneManager.LoadScene("MainScreen");
     }
 }
