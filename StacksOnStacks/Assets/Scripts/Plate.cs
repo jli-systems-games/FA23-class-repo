@@ -11,12 +11,15 @@ public class Plate : MonoBehaviour
     public float pancakeSpawnY = 1.54f;
     public float pancakeSpawnZ = -5.82f;
 
+    public AudioSource scoreSfx;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("pancake")) 
         {
             scoreManager.AddPoints(1);
             Instantiate(pancakeSingle, new Vector3(pancakeSpawnX, pancakeSpawnY, pancakeSpawnZ), Quaternion.Euler(-90, 0, 0));
+            scoreSfx.Play();
         }
     }
 
