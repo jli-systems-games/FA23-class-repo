@@ -11,6 +11,15 @@ public class ChangeText : MonoBehaviour
     public int counter = 0;
     public GameObject theButton;
 
+    public Camera switchCam;
+    public Camera cutsceneCam;
+
+    void Start()
+    {
+        switchCam.enabled = false;
+        cutsceneCam.enabled = true;
+    }
+
     public void textBoxClicked()
     {
         switch(counter)
@@ -18,6 +27,8 @@ public class ChangeText : MonoBehaviour
             case 3:
                 GameObject.Destroy(theButton);
                 GameObject.Destroy(text);
+                switchCam.enabled = true;
+                cutsceneCam.enabled = false;
                 break;
             case 2:
                 text.text = "I needa get out of here...";
