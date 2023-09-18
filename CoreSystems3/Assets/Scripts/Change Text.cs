@@ -16,6 +16,12 @@ public class ChangeText : MonoBehaviour
 
     void Start()
     {
+        StartCoroutine(cameraStuff());
+    }
+
+    private IEnumerator cameraStuff()
+    {
+        yield return new WaitForSeconds(0.01f);
         switchCam.enabled = false;
         cutsceneCam.enabled = true;
     }
