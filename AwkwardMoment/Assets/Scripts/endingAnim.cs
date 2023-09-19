@@ -17,6 +17,8 @@ public class endingAnim : MonoBehaviour
 
     public GameObject restart;
 
+    public GameObject blackScreen;
+
     void Start()
     {
         black.DOFade(0f, 5f).SetEase(Ease.InOutSine);
@@ -29,6 +31,8 @@ public class endingAnim : MonoBehaviour
         yield return new WaitForSeconds(4f);
         story.DOFade(1f, 3f).SetEase(Ease.InOutSine);
         StartCoroutine(cheesetime());
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 
     IEnumerator cheesetime()
@@ -36,6 +40,7 @@ public class endingAnim : MonoBehaviour
         yield return new WaitForSeconds(12f);
         cheese.DOFade(1f, 3f).SetEase(Ease.InOutSine);
         sus.Play();
+        blackScreen.SetActive(false);
         StartCoroutine(restarttime());
     }
 
