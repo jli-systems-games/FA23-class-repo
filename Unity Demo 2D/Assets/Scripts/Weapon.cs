@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Weapon : MonoBehaviour
+//(CreateAssetMenu)
+//(CreateAssetMenu(Weapon))
+public class Weapon : ScriptableObject
 {
    
     public enum WeaponStats
