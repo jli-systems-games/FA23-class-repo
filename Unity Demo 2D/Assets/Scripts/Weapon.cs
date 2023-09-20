@@ -16,4 +16,6 @@ public class Weapon : ScriptableObject
     public WeaponStats weaponStats;
 
     public int weaponPower;
+
+
 }
