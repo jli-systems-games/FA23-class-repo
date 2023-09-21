@@ -14,6 +14,7 @@ public class ChangeText : MonoBehaviour
     public Camera switchCam;
     public Camera cutsceneCam;
 
+
     void Start()
     {
         StartCoroutine(cameraStuff());
@@ -22,8 +23,8 @@ public class ChangeText : MonoBehaviour
     private IEnumerator cameraStuff()
     {
         yield return new WaitForSeconds(0.01f);
-        switchCam.enabled = false;
         cutsceneCam.enabled = true;
+        switchCam.enabled = false;
     }
 
     public void textBoxClicked()

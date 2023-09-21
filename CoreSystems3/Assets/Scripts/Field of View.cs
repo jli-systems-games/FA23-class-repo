@@ -15,10 +15,14 @@ public class FieldofView : MonoBehaviour
 
     public bool canSeePlayer;
 
+    public Embarassment otherScript;
+    public GameObject refObj;
+
     private void Start()
     {
         playerRef = GameObject.FindGameObjectWithTag("Player");
         StartCoroutine(FOVRoutine());
+        otherScript = refObj.GetComponent<Embarassment>();
     }
 
     private IEnumerator FOVRoutine()
@@ -48,7 +52,7 @@ public class FieldofView : MonoBehaviour
                 if(!Physics.Raycast(transform.position, directionToTarget, distanceToTarget, obstructionMask))
                 {
                     canSeePlayer = true;
-                    Debug.Log("asw");
+                    otherScript.counterAdd();
                 }
                 else
                 {
