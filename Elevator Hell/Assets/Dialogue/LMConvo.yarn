@@ -1,0 +1,533 @@
+﻿title: Start
+tags:
+---
+
+
+<<move_lilith Lilith 100 180 >>
+ <<expr_lilith LExpression "LilithAnnoyed">>
+Lilith: “God damnit.”
+
+Lilith pauses her steps, whipping around to shoot a piercing glare at the whispering angels behind her.
+
+<<move_lilith Lilith -250 0 >>
+ <<expr_lilith LExpression "LilithAngry">>
+Lilith: “Fuck! Off!!!”
+
+The angels gasp and cluck in dismay at Lilith’s shout, scurrying to add some distance between them and the demon in question while keeping a disapproving gaze fixed on her for as long as she was in their line of sight.
+
+<<move_lilith Lilith 250 180 >>
+<<expr_lilith LExpression "LilithAnnoyed">>
+As they vanish around a corner Lilith brings a hand to her temple, closing her eyes as she anticipates the oncoming migraine this little excursion is becoming.
+
+<<expr_lilith LExpression "LilithClosedeye">>
+Lilith: “ Oh Belial……. Alright Lilith, you’ve got this. Just go in, up to the 60th floor, toss the delivery to the first pious dork you see, and then we’re outta here.”
+
+
+<<expr_lilith LExpression "LilithAnnoyed">>
+With a sigh, Lilith straightens her back and squares her shoulders, arranging her face into an indifferent scowl as she stomps into the building.
+
+<<change_bg Screen>>
+<<wait 2>>
+
+She shakes the package at the receptionist, meeting his condescending look with a glower of her own as he buzzes her in.
+
+<<change_bg Screen>>
+<<wait 2>>
+
+She beelines towards the elevator, mashing the button at a lightning pace as she watches the numbers above the doors rise and fall.
+
+<<expr_lilith LExpression "LilithAngry">>
+Lilith: “Oh come on, hurry the hell up!”
+
+???: “Lils?”
+
+<<expr_lilith LExpression "LilithSurprise">>
+At the sound of that voice, Lilith stiffens.
+
+Lilith: “Oh, shit…”
+
+After a second, a burst of soft laughter sounds from behind her.
+
+???: “You didn’t mean to say that out loud, did you, Lils?”
+
+ <<expr_lilith LExpression "LilithAnnoyed">>
+Lilith: “Do not call me that.”
+
+With a deep breath, she slowly turns her head to get a look at the angel behind her.
+
+ <<move_lilith Lilith -100 0 >>
+  <<expr_mikael MExpression "MikaelNeutral">>
+  <<move_mikael Mikael 320 0 >>
+
+Lilith: <i>Damn, it really is him.</i>
+
+He shoots her a soft smile as he meets her eyes.
+
+Mikael: “Apologies, Lilith then? It’s been a while, I wasn’t aware you dropped that nickname.“
+
+ <<move_lilith Lilith 250 180 >>
+She whips her head back around to focus her attention back on the elevator numbers.
+
+Lilith: “That nickname is for friends only.”
+ <<expr_mikael MExpression "MikaelUnhappy">>
+Mikael: “Oh.”
+
+She can hear the hurt in his voice, a worthy price for being able to end this conversation.
+ <<expr_mikael MExpression "MikaelNeutral">>
+Unfortunately for her, he simply clears his throat and carries on.
+
+Mikael: “How have you been? Has your life been busy?”
+
+Lilith: “...”
+
+Mikael: “...”
+
+Lilith: “...”
+
+Mikael: “... How’s Luna? Still up to the same old chaos?”
+
+Lilith: “...”
+
+Mikael: “...”
+
+Lilith: “...”
+
+Mikael: “... So they have you on delivery duty? That is unfortunate. If you want I cou-”
+
+ <<expr_lilith LExpression "LilithAngry">>
+Lilith: “I am begging you. Please. Stop Talking.”
+ <<expr_mikael MExpression "MikaelUnhappy">>
+There’s a moment of silence, as the brewing tension finally settles thickly over the both of them.
+  <<expr_mikael MExpression "MikaelNeutral">>
+Mikael: “... I was just going to ask if you wanted me to bring it up for you.”
+
+ <<move_lilith Lilith -250 0 >>
+Lilith drags her attention away from the elevator for long enough to fix Mikael with a withering stare.
+
+Lilith: “I don’t need your help.”
+<<expr_mikael MExpression "MikaelUnhappy">>
+Hurt flashes across his face for a split second before he fixes it back into his usual placid smile.
+ <<expr_mikael MExpression "MikaelNeutral">>
+Mikael: “...Understood.”
+
+ <<move_lilith Lilith 250 180 >>
+  <<expr_lilith LExpression "LilithAnnoyed">>
+The next few seconds crawl by in silence, with Lilith’s eyes laser focused on the elevator, willing for the numbers to fall faster.
+As it hits the ground floor, she lets out a sigh of relief, glowering at the angels that scurry out before marching in.
+
+<<change_bg Screen>>
+<<wait 2>>
+
+It takes her a second to realize that Mikael has walked in behind her.
+
+<<move_lilith Lilith -250 0 >>
+<<move_mikael Mikael -250 180 >>
+<<expr_lilith LExpression "LilithSurprise">>
+She looks on with disbelief as he presses number 60 on the panel, pausing for a moment before turning to her.
+<<move_mikael Mikael 250 0 >>
+Mikael: “...Which floor?”
+
+ <<move_lilith Lilith 250 180 >>
+  <<expr_lilith LExpression "LilithAngry">>
+She whips her head away from him, glaring at the elevator doors as they slide close, imprisoning the two of them together.
+
+Lilith: “...Same.”
+<<move_mikael Mikael -250 180 >>
+Mikael hums in acknowledgement, stepping away from the panels.
+
+…
+
+<<expr_lilith LExpression "LilithAnnoyed">>
+Lilith ignores the little glances she can sense from Mikael, instead opting to glare at the numbers above the door as they crawl up at a snail's pace.
+
+…..
+
+What should only be a journey of under a minute seems to stretch out for excruciatingly long.
+
+…….
+
+Just as Lilith starts to debate giving up and pressing the next floor simply to put an end to this hellish encounter-
+
+The elevator rumbles, stuttering to a stop.
+
+<<move_lilith Lilith -250 0 >>
+<<expr_lilith LExpression "LilithSurprise">>
+Lilith: “What was that?”
+
+Mikael ignores her, rushing over to the panel to press the bright red help button.
+
+Lilith lets out a groan, sliding down the wall onto the floor as Mikael softly converses with the person at the other end of the receiver.
+
+<<expr_lilith LExpression "LilithClosedeye">>
+Lilith: “You’d think that something made by angels would be a little more ‘perfect’.”
+
+Mikael: “You would be surprised.”
+
+<<expr_lilith LExpression "LilithAnnoyed">>
+<<move_mikael Mikael 250 0 >>
+Lilith snorts as he gracefully situates himself on the floor across from her, punctuating her disbelief by turning her body away from him.
+
+Mikael: “So they are coming to get us… But it may take a while.”
+
+Lilith: “How long is ‘a while’?”
+
+Mikael: “...Around 30 minutes.”
+
+<<expr_lilith LExpression "LilithClosedeye">>
+Lilith: “Fuuuccckkkk...”
+
+Mikael: “Well, it could be a lot worse.”
+
+<<expr_lilith LExpression "LilithAnnoyed">>
+Lilith: “Not really, no.”
+<<expr_mikael MExpression "MikaelUnhappy">>
+Mikael quiets at her words, letting the conversation drop.
+
+Lilith: <i>Of all people to be stuck in this god forsaken elevator in…</i>
+
+…
+<<expr_mikael MExpression "MikaelNeutral">>
+The second drip into minutes at a torturous pace, neither of them saying a word as Lilith desperately tries to ignore the presence of the other.
+
+
+…..
+
+<<expr_lilith LExpression "LilithClosedeye">>
+Lilith closes her eyes, willing that her jumbled thoughts settle enough so that sleep would be able to grant her reprieve from the next 20-some minutes of this scenario.
+
+Yet no matter how much she tries, she can’t escape his presence in the elevator nor in his mind.
+
+He’s sitting there, perfectly still, perfectly quiet, yet she is overwhelmed by the consciousness that he is indeed there.
+
+…….
+
+Mikael: “... So how have you been?”
+
+<<expr_lilith LExpression "LilithSurprise">>
+Lilith: “What?”
+
+Lilith’s eyes shoot open and she turns her head to look at him.
+
+Mikael: “How have you been?”
+
+<<expr_lilith LExpression "LilithAnnoyed">>
+Lilith: “You’re seriously trying this again.”
+
+Mikael: “Not much else to do in this current situation.”
+
+He shoots her another one of his signature smiles, full of patience and understanding.
+
+The ball is in her court.
+
+<<expr_lilith LExpression "LilithClosedeye">>
+Lilith: “…”
+
+<<minigame Minigame>>
+
+===
+title: PositiveOne
+---
+<<expr_lilith LExpression "LilithSad">>
+
+Lilith: “...Not great, actually. Life just keeps throwing shit at me and I feel like I don’t have anyone to turn to. Not after…”
+
+She sighs, sitting up and turning to face Mikael, darting her eyes away as she continues.
+<<expr_lilith LExpression "LilithClosedeye">>
+Lilith: “Anyways, not great, kinda struggling.”
+<<expr_mikael MExpression "MikaelSad">>
+Mikael: “I’m sorry to hear that.”
+<<expr_lilith LExpression "LilithNeutral">>
+Lilith meets his gaze again, taking in the genuine concern and sorrow she finds there.
+
+Lilith: “I don’t… need your pity.”
+<<expr_mikael MExpression "MikaelUnhappy">>
+Mikael: “Lilith… we both know that’s not what this is.”
+<<expr_lilith LExpression "LilithSad">>
+Lilith: “...”
+
+Lilith: “You’re right.”
+
+Lilith: “Sorry.”
+
+Mikael opens his mouth, then shuts it with a shake of his head.
+<<expr_mikael MExpression "MikaelNeutral">>
+Mikael: “I hope for the best for you Lilith, always have, still do. I wish you knew that.”
+
+Lilith: “...”
+
+She looks away, letting the conversation fade away.
+
+<<jump AfterFirstChoice>>
+
+===
+title: NegativeOne
+---
+<<expr_lilith LExpression "LilithAnnoyed">>
+Lilith: “Better than ever. Shit’s been fantastic.”
+
+Lilith: “Work’s great, social life is great, family is great-”
+
+Lilith: “Everything is great, just so… amazing.”
+
+She stares Mikael down defiantly, jutting out her chin in an attempt to keep up this facade of confidence.
+
+He just smiles at her, an unreadable expression in his eyes.
+
+Mikael: “That’s amazing, I am really happy for you.”
+
+<<expr_lilith LExpression "LilithAngry">>
+Lilith: “Yeah right.”
+<<expr_mikael MExpression "MikaelUnhappy">>
+Mikael: “I truly am, Lilith. Why do you have such a hard time believing that?”
+
+<<expr_lilith LExpression "LilithAnnoyed">>
+Lilith looks away, choosing to let the question drop onto the floor between them.
+
+<<jump AfterFirstChoice>>
+
+===
+
+title: AfterFirstChoice
+---
+<<expr_mikael MExpression "MikaelNeutral">>
+<<expr_lilith LExpression "LilithNeutral">>
+The silence resumes. Only this time Lilith remains upright, with her eyes open.
+
+Her gaze flits towards Mikael, snatching glimpses of him out of the corners of her eyes.
+
+He remains perfectly still, back straight and legs folded neatly beneath him. His gaze is trained down at the floor in front of him, almost as if in a trance.
+
+Lilith: <i> He looks exactly the same as he did back then…</i>
+
+He glances up at her, and it’s only then that she realizes she’s been staring.
+ <<move_lilith Lilith 250 180 >>
+ <<expr_lilith LExpression "LilithSurprise">>
+Her eyes dart away in panic, focusing on the ground in front of her.
+ <<expr_lilith LExpression "LilithNeutral">>
+She’s only just started to use her fingers to trace patterns into the floor when he speaks up again.
+<<expr_mikael MExpression "MikaelSad">>
+<<expr_lilith LExpression "LilithSurprise">>
+Mikael: “Why did you start ignoring me? We were such good friends, or I mean… I thought we were…”
+<<move_lilith Lilith -250 0 >>
+Lilith glances back up at him in time to catch a rare moment of vulnerability as he slouches, curling into himself.
+
+Mikael: “Did I do something wrong?”
+<<expr_lilith LExpression "LilithSad">>
+Lilith tips her head back, staring up at the ceiling.
+<<expr_lilith LExpression "LilithClosedeye">>
+Lilith: <i>Shit.</i>
+
+<<minigame Minigame>>
+
+===
+
+title: PositiveTwo
+---
+<<expr_lilith LExpression "LilithSad">>
+Lilith: “It wasn’t you, it was- god, this is so fucking cliche.”
+<<expr_mikael MExpression "MikaelUnhappy">>
+She barks out a hollow laugh at the situation. 
+<<expr_lilith LExpression "LilithClosedeye">>
+<<expr_mikael MExpression "MikaelShocked">>
+Lilith: “It was me. I got into my own head and convinced myself I wasn’t good enough.”
+
+She curls up into a ball at this admission, mirroring Mikael.
+<<expr_mikael MExpression "MikaelSad">>
+Mikael: “Why would you think you weren’t good enough?”
+<<expr_lilith LExpression "LilithAngry">>
+Lilith: “I… ugh!!!”
+<<expr_mikael MExpression "MikaelUnhappy">>
+She rakes her hand through her hair feverishly, searching for the right words.
+<<expr_lilith LExpression "LilithSad">>
+Lilith: “You were always… so perfect… put together, wise, intelligent, kind… A literal fucking angel.”
+
+Lilith: “How in hell was I ever supposed to feel worthy of that?”
+<<expr_mikael MExpression "MikaelSad">>
+Mikael: “I’m not…”
+<<expr_lilith LExpression "LilithSurprise">>
+Lilith’s head jolts up in surprise as his voice cracks.
+
+Mikael: “You never had any reason to feel inferior to me. It was always you that was able to make people laugh, to bring light to any scenario. People always feel at ease around you.”
+<<expr_mikael MExpression "MikaelUnhappy">>
+Mikael: “You’re bold and fiery, able to freely speak your mind. I always assumed you never cared about what other people thought.”
+
+Mikael: “I really admired that about you… Admire, I still do.”
+<<expr_lilith LExpression "LilithNeutral">>
+There’s a lull in the conversation as Lilith observes Mikael.
+
+His jaw clenches, eyes staring intently at the floor as he mulls over his next words.
+<<expr_mikael MExpression "MikaelSad">>
+Mikael: “I always thought it was me. That I wasn’t fun or free spirited enough, and you got bored of me.”
+<<expr_lilith LExpression "LilithSurprise">>
+His words hit Lilith like a shot through her heart.
+<<expr_lilith LExpression "LilithSad">>
+Lilith: “That’s not-”
+<<expr_lilith LExpression "LilithClosedeye">>
+She clears her throat, the emotion having gotten stuck in it.
+<<expr_lilith LExpression "LilithSad">>
+Lilith: “I never meant to make you feel that way, I’m sorry.”
+<<expr_mikael MExpression "MikaelNeutral">>
+Mikael looks back up at her, a strange sort of melancholic smile filling his face.
+
+Mikael: “I forgive you. I am sorry too.”
+<<expr_lilith LExpression "LilithSurprise">>
+Lilith: “You have nothing to be sorry for.”
+<<expr_mikael MExpression "MikaelUnhappy">>
+Mikael: “I… should have been more aware. Made you understand how much I admired and appreciated you.”
+<<expr_lilith LExpression "LilithClosedeye">>
+Lilith: “That was never your responsibility.”
+
+Mikael: “Still. I was your friend, Lilith. I should have… I should have been able to tell you were not feeling alright. I should have been able to help.”
+
+
+<<jump AfterSecondChoice>>
+
+===
+title: NegativeTwo
+---
+<<expr_lilith LExpression "LilithAngry">>
+Lilith: “... You haloed narcissists are all the same. Acting all peaceful and pious, while you look down on us ‘lowly’ demons.”
+<<expr_mikael MExpression "MikaelShocked">>
+He flinches in surprise, straightening back up.
+
+Mikael: “I never-”
+
+Lilith: “Oh, shut up! How oblivious do you think I am?! You think I couldn’t feel the disdain in the way you looked at me, the disapproval in your voice?”
+<<expr_mikael MExpression "MikaelSad">>
+<<expr_lilith LExpression "LilithAnnoyed">>
+Lilith: “You always thought you were better than me. Well guess what? I don’t need you, never did. You’re just some loser angel who gets off on some demented superiority complex.”
+<<expr_lilith LExpression "LilithAngry">>
+Lilith: “Did slumming it with the demons feel like a fun and exciting little adventure? Was it just another “charity” gig? Did you go back to all your little angel friends and tell them what freaks we were?”
+<<expr_lilith LExpression "LilithAnnoyed">>
+<<expr_mikael MExpression "MikaelShocked">>
+Lilith: “You were never my friend.”
+
+The silence fills the elevator.
+<<expr_mikael MExpression "MikaelSad">>
+Mikael: “Is that really how you feel?”
+
+His voice is stiff, like a string that has been pulled too taught, seconds away from snapping.
+
+Lilith doesn’t bother to respond, simply opting to scowl at him.
+
+Mikael: “I’m sorry I made you feel that way.”
+<<move_mikael Mikael -250 180 >>
+<<expr_mikael MExpression "MikaelUnhappy">>
+This time, it is Mikael who turns away.
+
+Mikael: “You were right, we shouldn’t have ever talked.”
+ <<move_lilith Lilith 250 180 >>
+With the weight of their conversation smothering the both of them, they spend the rest of their waiting in complete silence.
+
+Now he'd be out of her life forever, exactly as she wanted.
+
+<b>End 1- Spiteful resolution</b>
+<<change_bg Screen>>
+===
+
+title: AfterSecondChoice
+---
+<<expr_lilith LExpression "LilithSad">>
+<<expr_mikael MExpression "MikaelNeutral">>
+Before the elevator can fall back into another silence, Mikael clears his throat once again.
+
+Mikael: “Do you ever… want to try again? I do. I uh… I miss you very much, and…”
+<<expr_lilith LExpression "LilithSurprise">>
+He stops himself before he starts to ramble, sitting up straight.
+
+Mikael: “I want to try being friends again.”
+
+<<minigame Minigame>>
+
+===
+
+title: Acceptance
+---
+<<expr_lilith LExpression "LilithHappy">>
+Lilith smiles, an overwhelming rush of emotions filling her head.
+
+Happy, nervous, shocked. But above all she feels relieved.
+
+Lilith: “I think that would be nice.”
+<<expr_mikael MExpression "MikaelHappy">>
+Mikael: “Really?”
+
+His wings give a little flutter of delight at her agreement and Lilith giggles at the movement.
+
+Lilith: "Yeah. I think we both kinda.. have a better understanding of what went wrong the first time, so we just gotta make sure it never happens again."
+
+Mikael: "Yes, exactly."
+
+Mikael’s smile is so wide it practically splits his face in two, and it brings forward a flood of fond memories that had nearly been forgotten.
+
+Lilith:" I don’t think it really hit me how much I missed you until just now."
+
+Mikael laughs.
+<<expr_mikael MExpression "MikaelNeutral">>
+Mikael: "Is that so? I’ve been painfully aware of it since the day we stopped talking."
+<<expr_lilith LExpression "LilithSad">>
+Lilith winces at his words.
+
+Lilith: "I’m sorry."
+<<expr_mikael MExpression "MikaelUnhappy">>
+Mikael: "Oh! I wasn’t trying to get another apology out of you. It’s all forgiven now, water under the bridge, as they say."
+<<expr_lilith LExpression "LilithNeutral">>
+<<expr_mikael MExpression "MikaelNeutral">>
+Mikael: "Instead, I think we have about 10 more minutes before maintenance gets here, so..."
+
+Mikael: "Why don’t you tell me a bit more about everything that’s happened since we last spoke?"
+<<expr_lilith LExpression "LilithHappy">>
+Lilith: "Sounds good."
+
+Lilith: "But you’re going next."
+<<expr_mikael MExpression "MikaelHappy">>
+Mikael smiles and nods at Lilith, scooting in closer as she begins.
+
+<b>End 3- New Beginnings</b>
+<<change_bg Screen>>
+
+===
+
+
+title: Rejection
+---
+<<expr_lilith LExpression "LilithNeutral">>
+Lilith hesitates, a “yes” threatening to spill off her tongue.
+
+However, she just clamps it shut and shakes her head slowly.
+<<expr_lilith LExpression "LilithSad">>
+
+Lilith: "I just think there’s too much history there, history that’s doomed to repeat itself."
+<<expr_mikael MExpression "MikaelSad">>
+Lilith: "I don’t want to end up trapped in some vicious cycle with you."
+<<expr_lilith LExpression "LilithNeutral">>
+Lilith: "It’s probably best if we just end it here, with our parts being said and an understanding of it all."
+<<expr_mikael MExpression "MikaelUnhappy">>
+Mikael stays silent for a few moments, processing her words.
+
+Mikael: "I can… understand that." 
+
+Mikael: "Everything is all wrapped up neatly, we can both move on."
+<<expr_mikael MExpression "MikaelNeutral">>
+Mikael: "It was nice while it lasted."
+He flashes Lilith a smile that doesn’t quite meet his eyes.
+
+Mikael: “I’m glad that we had this opportunity to talk things out at the very least. Even if I had hoped we could move forward together.”
+<<expr_lilith LExpression "LilithSad">>
+Lilith: “I’m sorry Mikael, it’s for the best.”
+
+He lets out a little hum in response.
+
+Mikael: “Shouldn’t be much longer until they get us out.”
+
+The elevator falls silent once again, filled with an air of melancholy.
+<<expr_lilith LExpression "LilithClosedeye">>
+<<expr_mikael MExpression "MikaelUnhappy">>
+The distance that had been bridged just a few minutes ago now feels wider than ever.
+
+It might hurt now, but it’s for the best.
+
+<b>End 2- Closing the door</b>
+<<change_bg Screen>>
+
+===
