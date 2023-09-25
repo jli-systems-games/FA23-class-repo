@@ -16,5 +16,4 @@ public static class player
 
     public static Dictionary<Stat, int> playerStats = new Dictionary<Stat, int>();
     public static string playerName = "";
-    public static Weapons
 }
