@@ -1,4 +1,6 @@
+using EZCameraShake;
 using UnityEngine;
+
 
 public class BoxingTriggerPlayer2 : MonoBehaviour
 {

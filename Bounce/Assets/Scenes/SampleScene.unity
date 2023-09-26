@@ -1896,10 +1896,10 @@ RectTransform:
   - {fileID: 1093969390}
   m_Father: {fileID: 1874936797}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -348.75}
-  m_SizeDelta: {x: 0, y: -697.5}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -283}
+  m_SizeDelta: {x: 0, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1075077754
 MonoBehaviour:
@@ -1955,7 +1955,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1075077755
 MonoBehaviour:
@@ -2568,6 +2568,8 @@ MonoBehaviour:
   p1Win: {fileID: 1962964570}
   playAgain: {fileID: 1093969391}
   restartBtn: {fileID: 1075077752}
+  theTimer: {fileID: 513051027}
+  timerText: {fileID: 407400135}
 --- !u!1 &1449248412 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 76745e8eb61334e74be6158bbc1486d6, type: 3}
@@ -3792,7 +3794,7 @@ Transform:
   m_GameObject: {fileID: 419950128354829574}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5887777, y: 0.22404239, z: 0.3745598, w: 0.68033135}
-  m_LocalPosition: {x: 1.121141, y: 6.81, z: -0.54}
+  m_LocalPosition: {x: 1.121141, y: 20.42, z: -0.54}
   m_LocalScale: {x: 0.5, y: 0.5000001, z: 0.5000001}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3912,7 +3914,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 419950128354829574}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 10
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -3956,7 +3958,6 @@ SceneRoots:
   - {fileID: 803396089}
   - {fileID: 1842805840}
   - {fileID: 210454339}
-  - {fileID: 1706938921}
   - {fileID: 2049031379}
   - {fileID: 907416660}
   - {fileID: 1943101763}
@@ -3966,3 +3967,4 @@ SceneRoots:
   - {fileID: 1874936797}
   - {fileID: 513051029}
   - {fileID: 941989545}
+  - {fileID: 1706938921}

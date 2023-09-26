@@ -1,5 +1,6 @@
 using UnityEngine;
 
+
 public class BoxingTrigger : MonoBehaviour
 {
     public float punchForce = 10f;
