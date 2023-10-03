@@ -9,6 +9,9 @@ public class TextScroll : MonoBehaviour
     public GameObject greenBg;
 
     public GameObject canvas;
+    public GameObject otherCanvas;
+    
+    public GameObject[] UIIcons;
 
     public TMP_Text textBox; 
 
@@ -16,6 +19,8 @@ public class TextScroll : MonoBehaviour
 
     public bool speaker = false;
     public int counter = 0;
+    public int breakVal;
+
 
 
     public void OnClick()
@@ -43,9 +48,24 @@ public class TextScroll : MonoBehaviour
 
     void Update()
     {
-        if (counter == 9)
+        if (counter == breakVal)
         {
             canvas.SetActive(false);
+            activateUI();
+        }
+
+        else if (counter == textBank.Length)
+        {
+            canvas.SetActive(false);
+            otherCanvas.SetActive(true);
+        }
+    }
+
+    public void activateUI()
+    {
+        for (int i = 0;i<UIIcons.Length;i++)
+        {
+            UIIcons[i].SetActive(true);
         }
     }
 }

@@ -9,17 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Home Screen.unity
     guid: dd4b863d89aa98145952ce132d99cdbe
   - enabled: 1
+    path: Assets/Scenes/Zoom.unity
+    guid: bfa7f81e26202574f93eefea9a4a013c
+  - enabled: 1
     path: Assets/Scenes/Website.unity
     guid: 3485c8e2663493044bf12805cfc763ce
-  - enabled: 1
-    path: Assets/Scenes/Email.unity
-    guid: 3cfcdf02e1162504f9d5130ba7c36817
   - enabled: 1
     path: Assets/Scenes/Illustrator.unity
     guid: 3834316ebb071484e8650caadcb865c5
   - enabled: 1
-    path: Assets/Scenes/Zoom.unity
-    guid: bfa7f81e26202574f93eefea9a4a013c
+    path: Assets/Scenes/Email.unity
+    guid: 3cfcdf02e1162504f9d5130ba7c36817
   - enabled: 1
     path: Assets/Scenes/End Screen.unity
     guid: 2cda990e2423bbf4892e6590ba056729

@@ -10,13 +10,13 @@ public class PointsManager : MonoBehaviour
 
     public void PointsIncreaseBy25()
     {
-        points+=25;
+        points+=5;
         numberHolder.text = points.ToString();
     }
 
-    public void PointsIncreaseBy75()
+    public void PointsIncreaseBy10()
     {
-        points+=75;
+        points+=10;
         numberHolder.text = points.ToString();
     }
 }
