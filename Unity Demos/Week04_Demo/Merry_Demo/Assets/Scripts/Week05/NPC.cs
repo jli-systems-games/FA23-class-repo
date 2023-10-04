@@ -9,6 +9,7 @@ public class NPC : ScriptableObject
 {
     public string npcName = " ";
     public Weapon npcWeapon = null;
+    public DialogueObject[] dialogue;
 
     public Dictionary<Stat, int> npcStats = new Dictionary<Stat, int>();
 
@@ -17,7 +18,7 @@ public class NPC : ScriptableObject
     public int npcConstitution = 10;
     public int npcIntelligence = 10;
     public int npcWisdom = 10;
-    public int npcCharisma= 10;
+    public int npcCharisma = 10;
 
     public void Awake()
     {

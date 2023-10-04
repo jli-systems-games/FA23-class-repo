@@ -890,7 +890,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8490469110061487379, guid: 4993df8e196569b48a016d4b108e9a41, type: 3}
       propertyPath: m_Name
-      value: Prefab_NPC
+      value: NPC_John
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
