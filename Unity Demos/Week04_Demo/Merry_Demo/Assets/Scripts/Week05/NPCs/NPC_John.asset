@@ -16,6 +16,9 @@ MonoBehaviour:
   npcWeapon: {fileID: 11400000, guid: acb339768d2bdfc4684579dfb2fc03ea, type: 2}
   dialogue:
   - {fileID: 11400000, guid: 4b05f8bf9ffd96a4fa068b8193555cb5, type: 2}
+  - {fileID: 11400000, guid: 5f6b82331af83644b9ea408f0bbd7418, type: 2}
+  - {fileID: 11400000, guid: 45e7f922db3f04b4682e033e0a485382, type: 2}
+  - {fileID: 11400000, guid: a7737e7fc3b70fb4a8e123ee4bc4ee87, type: 2}
   npcStrength: 10
   npcDexterity: 10
   npcConstitution: 10
