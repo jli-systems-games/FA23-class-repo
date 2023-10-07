@@ -1,0 +1,52 @@
+fileFormatVersion: 2
+guid: 75bbc4df4991d4f75bda091a05898e63
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__167
+    second: {fileID: 2100000, guid: f64c6aedf377e43eb86951cd9df4459d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PIatto01
+    second: {fileID: 2100000, guid: 1115aea288aa640f9afd25129e991017, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TVUnik_Baked01
+    second: {fileID: 2100000, guid: c39d5df499fe947eda6ef760b00e8ea7, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: texture_0
+    second: {fileID: 2800000, guid: 836b9c81baccc484290cb11601119bd6, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: texture_2.normal
+    second: {fileID: 2800000, guid: 83565d2ba11314c488d55597a3ba9c9d, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: texture_3.standard
+    second: {fileID: 2800000, guid: 3e9d44bb3476d4825b2e717cd11f0866, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: texture_4
+    second: {fileID: 2800000, guid: c2c538decd9b047579a49e1f53dbb3f9, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: texture_5.standard
+    second: {fileID: 2800000, guid: 59afa25d59303450d8b78638c1903ae7, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: cc45016b844e7624dae3aec10fb443ea, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0

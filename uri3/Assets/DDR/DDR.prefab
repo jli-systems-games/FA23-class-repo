@@ -1,0 +1,285 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5393011974052896880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5393011974052896881}
+  - component: {fileID: 5393011974052896882}
+  m_Layer: 0
+  m_Name: DDR Input Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5393011974052896881
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5393011974052896880}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5393011974922524826}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5393011974052896882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5393011974052896880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 23b09797bd9e71c4a8c757b6cac785a7, type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5393011974922524825}
+        m_TargetAssemblyTypeName: DDR, Assembly-CSharp
+        m_MethodName: SetUp
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 88bf3e75-a059-4a52-826a-caba94e04a12
+    m_ActionName: DDR/Up[/USB Gamepad /button3]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5393011974922524825}
+        m_TargetAssemblyTypeName: DDR, Assembly-CSharp
+        m_MethodName: SetDown
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 6499a79e-0643-47ae-9957-ccc2a2e0c08a
+    m_ActionName: DDR/Down[/USB Gamepad /button2]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5393011974922524825}
+        m_TargetAssemblyTypeName: DDR, Assembly-CSharp
+        m_MethodName: SetRight
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 13f46f14-1f3c-4210-823e-49dcdd5d63ab
+    m_ActionName: DDR/Right[/USB Gamepad /button4]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5393011974922524825}
+        m_TargetAssemblyTypeName: DDR, Assembly-CSharp
+        m_MethodName: SetLeft
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 00f13d37-abf9-4812-b2a5-b8f1033cb35e
+    m_ActionName: DDR/Left[/USB Gamepad /trigger]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5393011974922524825}
+        m_TargetAssemblyTypeName: DDR, Assembly-CSharp
+        m_MethodName: SetCross
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 64ef8823-a96a-4b0e-8e86-f5456c44a072
+    m_ActionName: DDR/Cross[/USB Gamepad /button7]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5393011974922524825}
+        m_TargetAssemblyTypeName: DDR, Assembly-CSharp
+        m_MethodName: SetSquare
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 755e9784-dcc0-49de-a88d-223948aa0d94
+    m_ActionName: DDR/Square[/USB Gamepad /button5]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5393011974922524825}
+        m_TargetAssemblyTypeName: DDR, Assembly-CSharp
+        m_MethodName: SetCircle
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 3e4c6409-fbb9-4290-ac7a-38e8d11ca3fc
+    m_ActionName: DDR/Circle[/USB Gamepad /button8]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5393011974922524825}
+        m_TargetAssemblyTypeName: DDR, Assembly-CSharp
+        m_MethodName: SetTriangle
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 49c646d9-c8eb-4601-8699-17ebff2349aa
+    m_ActionName: DDR/Triangle[/USB Gamepad /button6]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5393011974922524825}
+        m_TargetAssemblyTypeName: DDR, Assembly-CSharp
+        m_MethodName: SetStart
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 43024b0f-8042-4f3e-84e2-baa9d76df0a7
+    m_ActionName: DDR/Start[/USB Gamepad /button10]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5393011974922524825}
+        m_TargetAssemblyTypeName: DDR, Assembly-CSharp
+        m_MethodName: SetSelect
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: e7e7f266-0e48-4491-9ddf-aaa9bb406947
+    m_ActionName: DDR/Select[/USB Gamepad /button9]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5393011974922524825}
+        m_TargetAssemblyTypeName: DDR, Assembly-CSharp
+        m_MethodName: SetCenter
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 1e312712-47bc-45ea-83f5-83253d859454
+    m_ActionName: DDR/Center[/USB Gamepad /stick/down]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: DDR
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!1 &5393011974922524824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5393011974922524826}
+  - component: {fileID: 5393011974922524825}
+  m_Layer: 0
+  m_Name: DDR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5393011974922524826
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5393011974922524824}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5393011974052896881}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5393011974922524825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5393011974922524824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7970a26b34f85f4994093915d21facd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

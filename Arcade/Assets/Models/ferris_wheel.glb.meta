@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: cbf8e43b463a8439ab4a2eecfd56141c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Take 001
+    second: {fileID: 7400000, guid: 88541c9b94c874269b867a528ec940a7, type: 2}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: cc45016b844e7624dae3aec10fb443ea, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0
