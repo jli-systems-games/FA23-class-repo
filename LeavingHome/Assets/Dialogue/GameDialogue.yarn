@@ -1,0 +1,167 @@
+﻿title: Start
+tags:
+---
+You left your home.
+
+You grew tired of your mundane everyday, wanting something, anything, else.
+
+So you boarded the train.
+
+<<start_fade Square>>
+<<wait 2.5>>
+
+Is this how you envisioned your new start?
+===
+
+title: GhostNone
+tags:
+---
+
+???: fiNd hEr...
+
+???: HeLp Me... findHer...
+
+???: brInG heR tO mE...
+
+???: ...pLeaSe.....
+===
+
+title: GhostHammerRod
+tags:
+---
+
+???: ...
+
+===
+
+title: GhostDog
+tags:
+---
+
+???: nO! wrOnG!!!
+
+===
+
+title: GhostRat
+tags:
+---
+The ??? lets out a shriek of delight.
+
+???: my beLovEd...
+
+<<show_rat Clicks>>
+
+???: sHe reTurNs tO Me aT lAsT...
+
+???: ThaNk yOu.
+
+???: thIs is onLy tHe BegiNinG...
+
+???: otHeRs wIlL nOt bE So kInD...
+
+???: ArE yOu pRepArEd fOr WhaT lIeS aHeAd?
+
+<<ending_fade Square>>
+
+===
+
+title: CatNone
+tags:
+---
+
+The cat narrows her eyes at you warily.
+
+===
+
+title: CatItem
+tags:
+---
+
+The cat glances at what you offer her.
+
+She's completely uninterested.
+
+===
+
+title: CatRat
+tags:
+---
+
+The cat hisses at the rat you present in front of her.
+
+Her fur bristles violently.
+
+How strange...
+
+===
+
+title: RodPickup
+tags:
+---
+
+Picked up the Fishing Rod.
+
+Where can you use this?
+
+===
+
+title: HammerPickup
+tags:
+---
+
+Picked up the Hammer.
+
+Is there something that needs to be broken??
+
+===
+
+title: DogPickup
+tags:
+---
+
+Picked up the Dog Plush.
+
+Would someone want this?
+
+===
+
+title: RatPickup
+tags:
+---
+
+Picked up the Rat.
+
+She wriggles around in your hands.
+
+===
+title: CrackedWindowRod
+tags:
+---
+
+The cracks aren't large enough to slide the Hook through.
+
+===
+title: HammerWindow
+tags:
+---
+
+Smashed the Window open with the Hammer.
+
+===
+title: BrokenWindowRod
+tags:
+---
+
+You slip the Fishing Line through the Broken Window.
+
+...
+
+There's a tug!
+
+You pull up the line and...
+
+A Rat jumps off the hook.
+
+<<show_rat Clicks>>
+
+===
