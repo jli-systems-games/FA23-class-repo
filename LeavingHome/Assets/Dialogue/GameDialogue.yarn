@@ -8,7 +8,7 @@ You grew tired of your mundane everyday, wanting something, anything, else.
 So you boarded the train.
 
 <<start_fade Square>>
-<<wait 2.5>>
+
 
 Is this how you envisioned your new start?
 ===
@@ -16,12 +16,15 @@ Is this how you envisioned your new start?
 title: GhostNone
 tags:
 ---
-
+<<monster_noise PlaySounds>>
 ???: fiNd hEr...
+
 
 ???: HeLp Me... findHer...
 
+
 ???: brInG heR tO mE...
+
 
 ???: ...pLeaSe.....
 ===
@@ -30,6 +33,7 @@ title: GhostHammerRod
 tags:
 ---
 
+<<monster_noise PlaySounds>>
 ???: ...
 
 ===
@@ -37,7 +41,7 @@ tags:
 title: GhostDog
 tags:
 ---
-
+<<monster_noise PlaySounds>>
 ???: nO! wrOnG!!!
 
 ===
@@ -47,6 +51,7 @@ tags:
 ---
 The ??? lets out a shriek of delight.
 
+<<monster_noise PlaySounds>>
 ???: my beLovEd...
 
 <<show_rat Clicks>>
@@ -68,7 +73,7 @@ The ??? lets out a shriek of delight.
 title: CatNone
 tags:
 ---
-
+<<cat_noise PlaySounds>>
 The cat narrows her eyes at you warily.
 
 ===
@@ -76,7 +81,7 @@ The cat narrows her eyes at you warily.
 title: CatItem
 tags:
 ---
-
+<<cat_noise PlaySounds>>
 The cat glances at what you offer her.
 
 She's completely uninterested.
@@ -86,7 +91,7 @@ She's completely uninterested.
 title: CatRat
 tags:
 ---
-
+<<cat_noise PlaySounds>>
 The cat hisses at the rat you present in front of her.
 
 Her fur bristles violently.
@@ -98,7 +103,7 @@ How strange...
 title: RodPickup
 tags:
 ---
-
+<<pickup_noise PlaySounds>>
 Picked up the Fishing Rod.
 
 Where can you use this?
@@ -108,7 +113,7 @@ Where can you use this?
 title: HammerPickup
 tags:
 ---
-
+<<pickup_noise PlaySounds>>
 Picked up the Hammer.
 
 Is there something that needs to be broken??
@@ -118,7 +123,7 @@ Is there something that needs to be broken??
 title: DogPickup
 tags:
 ---
-
+<<pickup_noise PlaySounds>>
 Picked up the Dog Plush.
 
 Would someone want this?
@@ -128,7 +133,7 @@ Would someone want this?
 title: RatPickup
 tags:
 ---
-
+<<rat_noise PlaySounds>>
 Picked up the Rat.
 
 She wriggles around in your hands.
@@ -144,7 +149,7 @@ The cracks aren't large enough to slide the Hook through.
 title: HammerWindow
 tags:
 ---
-
+<<shatter_noise PlaySounds>>
 Smashed the Window open with the Hammer.
 
 ===
@@ -161,7 +166,7 @@ There's a tug!
 You pull up the line and...
 
 A Rat jumps off the hook.
-
+<<rat_noise PlaySounds>>
 <<show_rat Clicks>>
 
 ===

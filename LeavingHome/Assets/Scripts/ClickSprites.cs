@@ -16,6 +16,7 @@ public class ClickSprites : MonoBehaviour
     public static bool hammerPickup;
     public static bool dogPickup;
     public static bool ratPickup;
+    public bool fished;
 
     public void Start()
     {
@@ -23,6 +24,7 @@ public class ClickSprites : MonoBehaviour
         hammerPickup = false;
         dogPickup = false;
         ratPickup = true;
+        fished = false;
 
     }
     public void GhostClick()
@@ -65,7 +67,12 @@ public class ClickSprites : MonoBehaviour
         {
             if (InventorySelect.selected == "RodIcon_0")
             {
-                script.StartDialogue("BrokenWindowRod");
+                if (!fished)
+                {
+                    script.StartDialogue("BrokenWindowRod");
+                    fished = true;
+                }
+               
                 
             }
         }

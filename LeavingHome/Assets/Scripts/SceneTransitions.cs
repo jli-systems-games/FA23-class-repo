@@ -7,11 +7,13 @@ using Yarn.Unity;
 public class SceneTransitions : MonoBehaviour
 {
     public Animator animator;
+    public AudioSource music;
 
+ 
     [YarnCommand("start_fade")]
     public void StartFade()
     {
-
+        music.Play();
         animator.SetTrigger("StartScene");
     }
 
