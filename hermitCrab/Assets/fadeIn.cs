@@ -9,12 +9,14 @@ public class fadeIn : MonoBehaviour
     public TMP_Text haiku;
     void Start()
     {
-        haiku.DOFade(1f, 7f).SetEase(Ease.InOutSine);
+        StartCoroutine(waitTitleEnd());
+        
     }
 
 
-    void Update()
+    IEnumerator waitTitleEnd()
     {
-        
+        yield return new WaitForSeconds(8f);
+        haiku.DOFade(1f, 14f).SetEase(Ease.InOutSine);
     }
 }
