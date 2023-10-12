@@ -1,0 +1,82 @@
+fileFormatVersion: 2
+guid: d296b7069dfdc46b59884f87bda84baf
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_0
+    second: {fileID: 2100000, guid: cf85f26d1aed349e896f2dcc881212b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_1
+    second: {fileID: 2100000, guid: 33b5df87d82d548e180c1e89bc46b877, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_2
+    second: {fileID: 2100000, guid: 9d49c53fe69f54e57bc167fae74e76b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_3
+    second: {fileID: 2100000, guid: e1cb09de57a34452e96cc5b69621e932, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: material_0_emissive
+    second: {fileID: 2800000, guid: c303ab3e1039e40179988fb375757c18, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: material_0_normal.normal
+    second: {fileID: 2800000, guid: 4008e66af296d453688d119188956ba2, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: material_0_occlusion.standard
+    second: {fileID: 2800000, guid: d39f708a23504403ebf1a5446cac23fb, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: material_1_normal.normal
+    second: {fileID: 2800000, guid: 8501c2c0d386340a09ac48bee4a29f12, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: material_1_occlusion.standard
+    second: {fileID: 2800000, guid: fdb009017dbac43dab1c9643ec50cad7, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: material_2_normal.normal
+    second: {fileID: 2800000, guid: a872c564aa1ba47d0a8c088dd449ce70, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: material_2_occlusion.standard
+    second: {fileID: 2800000, guid: 33431a384a7b2419fbedd4608c60b04c, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: material_3_emissive
+    second: {fileID: 2800000, guid: 5236f721217484789b260be1fa648f01, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: material_3_normal.normal
+    second: {fileID: 2800000, guid: 7f9222e092787462bb8ac5fa5d2456ab, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: material_3_occlusion.standard
+    second: {fileID: 2800000, guid: e3b29c9fdb6b64f788e650cc897a077e, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aecd2106718f2444db3ca21345da2cef, type: 3}
+  reverseAxis: 0
+  renderPipeline: 1
