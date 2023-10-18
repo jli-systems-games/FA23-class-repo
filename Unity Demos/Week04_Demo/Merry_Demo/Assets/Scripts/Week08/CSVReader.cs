@@ -5,8 +5,8 @@ using System;
 
 public class CSVReader : MonoBehaviour
 {
-    public TextAsset npcData;
-    public int numberColumns = 1;
+            public TextAsset npcData;
+            public int numberColumns = 1;
 
     public void Awake()
     {
