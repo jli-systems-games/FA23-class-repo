@@ -6,6 +6,8 @@ using static Player;
 [CreateAssetMenu(fileName = "NPC", menuName = "ScriptableObjects/NPC/NPC", order = 2)]
 public class NPC : ScriptableObject
 {
+    public int npcID;
+
     public string npcName = " ";
     public Weapon npcWeapon = null;
     public DialogueObject[] dialogue;
@@ -22,5 +24,21 @@ public class NPC : ScriptableObject
     public void Awake()
     {
         npcStats.Add(Stat.Strength, npcStrength);
+        npcStats.Add(Stat.Dexterity, npcDexterity);
+        npcStats.Add(Stat.Constitution, npcConstitution);
+        npcStats.Add(Stat.Intelligence, npcIntelligence);
+        npcStats.Add(Stat.Wisdom, npcWisdom);
+        npcStats.Add(Stat.Charisma, npcCharisma);
+
+    }
+
+    public void UpdateStats()
+    {
+        npcStats[Stat.Strength] = npcStrength;
+        npcStats[Stat.Dexterity] = npcDexterity;
+        npcStats[Stat.Constitution] = npcConstitution;
+        npcStats[Stat.Intelligence] = npcIntelligence;
+        npcStats[Stat.Wisdom] =  npcWisdom;
+        npcStats[Stat.Charisma] = npcCharisma;
     }
 }
