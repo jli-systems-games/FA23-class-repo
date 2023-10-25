@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class Weapon : ScriptableObject
 {
+    public int weaponID;
 
     public enum WeaponType
     {
@@ -23,5 +24,6 @@ public class Weapon : ScriptableObject
     public int reqInt = 0;
     public int reqWis = 0;
     public int reqCha = 0;
+
 
 }

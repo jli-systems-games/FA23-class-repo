@@ -1,0 +1,11 @@
+ID,Weapon,Strength,Dexterity,Constitution,Intelligence,Wisdom,Charisma
+1,Sword,15,12,10,10,14,12
+2,Bow,15,10,8,12,14,10
+3,Spear,14,12,10,10,12,10
+4,Rifle,18,14,12,15,18,15
+5,Axe,15,12,14,10,14,12
+6,Stick,5,10,8,5,8,6
+7,FryingPan,12,12,10,7,10,10
+8,Shotgun,16,10,12,15,16,15
+9,Knife,7,12,8,6,10,8
+10,Hammer,12,12,10,8,14,8
