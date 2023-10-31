@@ -12,6 +12,7 @@ public class FadeRed : MonoBehaviour
 
     private bool isPlayerInside = false;
     private bool hasChangedColor = false;
+    public bool hasInteracted = false;
 
     public TMP_Text ins;
 
@@ -35,7 +36,7 @@ public class FadeRed : MonoBehaviour
                 if (ins != null)
                 {
                     ins.gameObject.SetActive(true);
-                    ins.DOFade(1f, 1f);
+                    ins.DOFade(1f, 0.5f).SetEase(Ease.InOutSine);
                 }
             }
         }
@@ -49,11 +50,12 @@ public class FadeRed : MonoBehaviour
             if (hasChangedColor)
             {
                 hasChangedColor = false;
+                hasInteracted = true;
             }
 
             if (ins != null)
             {
-                ins.DOFade(0.0f, 1f).OnComplete(() => {
+                ins.DOFade(0.0f, 0.5f).SetEase(Ease.InOutSine).OnComplete(() => {
                     ins.gameObject.SetActive(false);
                 });
             }
@@ -73,7 +75,7 @@ public class FadeRed : MonoBehaviour
     {
         foreach (Renderer renderer in childRenderers)
         {
-            renderer.material.DOColor(targetColor, "_EmissionColor", tweenDuration);
+            renderer.material.DOColor(targetColor, "_EmissionColor", tweenDuration).SetEase(Ease.InOutSine);
         }
 
         
