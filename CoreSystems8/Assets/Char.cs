@@ -34,4 +34,5 @@ public class Char : MonoBehaviour
 
         characterController.Move(moveDirection * Time.deltaTime);
     }
+    
 }
