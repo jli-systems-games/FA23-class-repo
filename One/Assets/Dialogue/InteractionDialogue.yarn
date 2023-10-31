@@ -1,0 +1,78 @@
+﻿title: Red
+tags:
+---
+<color=red>Red</color>: Oh shoot, there's a liar afoot? 
+<color=red>Red</color>: Hmm... All I can say is that <color=blue>Blue</color> is the most honest person I've met. 
+<color=red>Red</color>: Ages? 
+<color=red>Red</color>: Uhhh, all I know for sure is that <color=green>Green</color> is older than <color=blue>Blue</color>. 
+
+===
+title: Blue
+tags:
+---
+<color=blue>Blue</color>: How old is everyone here?
+<color=blue>Blue</color>: <color=yellow>Yellow</color> is younger than <color=orange>Orange</color>, that's all I remember.
+<color=blue>Blue</color>: Huh? Someone who's a compulsive liar?
+<color=blue>Blue</color>: Well, it ain't me, that's for certain.
+
+===
+title: Yellow
+tags:
+---
+<color=yellow>Yellow</color>: Someone's been lying? Ooh, how interesting!
+<color=yellow>Yellow</color>: Well, I wouldn't put any money on <color=orange>Orange</color>, they're as honest as they come.
+<color=yellow>Yellow</color>: Who's the oldest here?
+<color=yellow>Yellow</color>: Hmmm...<color=red>Red</color> is older than <color=purple>Purple</color>, but as for the rest... not sure!
+
+===
+title: Green
+tags:
+---
+<color=green>Green</color>: A liar? Oh, how shameless!
+<color=green>Green</color>: All I can say for certain is it isn't me.
+<color=green>Green</color>: Wha?... Everyone's ages?
+<color=green>Green</color>: <color=\#FF6BEE>Pink</color> is older than <color=red>Red</color>, that's all I know.
+
+===
+title: Orange
+tags:
+---
+<color=orange>Orange</color>: The youngest person here?
+<color=orange>Orange</color>: Hmm, <color=blue>Blue</color> is younger than <color=green>Green</color>, but the youngest... Can't say I know!
+<color=orange>Orange</color>: Someone untrustworthy?
+<color=orange>Orange</color>: Well, it sure isn't <color=red>Red</color>, I'd trust that man with my life!
+
+===
+title: Purple
+tags:
+---
+<color=purple>Purple</color>: Someone we can't trust... Hmm... Can't say anyone comes to mind!
+<color=purple>Purple</color>: But it sure as hell isn't <color=\#FF6BEE>Pink</color>!
+<color=purple>Purple</color>: Hmm? You're looking into people's ages?
+<color=purple>Purple</color>: Well, <color=green>Green</color> is older than <color=yellow>Yellow</color>, that much I know.
+
+===
+title: Pink
+tags:
+---
+<color=\#FF6BEE>Pink</color>: The oldest?
+<color=\#FF6BEE>Pink</color>: Not sure, but I'm pretty sure <color=orange>Orange</color> is older than <color=blue>Blue</color>!
+<color=\#FF6BEE>Pink</color>: A liar?
+<color=\#FF6BEE>Pink</color>: Certainly not <color=yellow>Yellow</color>! She would never.
+
+===
+title: NotYet
+tags:
+---
+Whoa there! You haven't gathered all the clues yet.
+Get back in there and get them all before making a decision.
+===
+title: Exit
+tags:
+---
+Do you know who the liar is?
+	-> Yes
+		<<leave ExitRoom>>
+	-> Not yet
+		<<resume ExitRoom>>
+===
