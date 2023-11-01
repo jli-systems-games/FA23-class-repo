@@ -1,49 +1,9 @@
 fileFormatVersion: 2
-guid: 34af27c2d136248468f3a92d74f62c3b
+guid: ff554af33a3314f0ab1139b3fada6800
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Ch22_body
-    second: {fileID: 2100000, guid: 898cfb40bc2cd4f26a240c02719cde76, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Ch22_hair
-    second: {fileID: 2100000, guid: a2c25818262564167803f869816e1904, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Ch22_1001_Diffuse
-    second: {fileID: 2800000, guid: 82919f0c02ed64205b6e48c6ae2ab256, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Ch22_1001_Glossiness
-    second: {fileID: 2800000, guid: b900cc11ee9f14d1f91f9142c030cb15, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Ch22_1001_Normal
-    second: {fileID: 2800000, guid: 0c791a226dc9445b6ba3bdd86d2d6e50, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Ch22_1001_Specular
-    second: {fileID: 2800000, guid: b8cb5fb49856d4736a73c1c4f399f923, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Ch22_1002_Diffuse
-    second: {fileID: 2800000, guid: ae0c9c9d7ea604b77967823a7d65c804, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Ch22_1002_Normal
-    second: {fileID: 2800000, guid: 9a9277e95f2514a57922981659fe33ac, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -72,7 +32,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 1
+    isReadable: 0
   meshes:
     lODScreenPercentages: []
     globalScale: 1
@@ -117,10 +77,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips:
-  - ff554af33a3314f0ab1139b3fada6800
-  - 893b6f0b8ff494efc856855862bea9e0
-  - f617be5f9c29e40acafd31bf4d4cd8b1
+  referencedClips: []
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
@@ -914,11 +871,12 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 34af27c2d136248468f3a92d74f62c3b,
+    type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 2
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0

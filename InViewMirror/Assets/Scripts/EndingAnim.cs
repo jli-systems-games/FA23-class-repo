@@ -23,7 +23,7 @@ public class EndingAnim : MonoBehaviour
 
     IEnumerator waitCheck()
     {
-        yield return new WaitForSeconds(24f);
+        yield return new WaitForSeconds(25f);
         transform.DORotate(new Vector3(0.85f, -2.5f, -0.5f), 9f).SetEase(Ease.InOutSine);
         yield return new WaitForSeconds(12f);
         endScreen.DOFade(1f, 6f).SetEase(Ease.InOutSine);

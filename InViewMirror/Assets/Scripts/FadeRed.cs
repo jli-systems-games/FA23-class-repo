@@ -47,18 +47,21 @@ public class FadeRed : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             isPlayerInside = false;
-            if (hasChangedColor)
-            {
-                hasChangedColor = false;
-                hasInteracted = true;
-            }
 
-            if (ins != null)
+            if (!isPlayerInside)
             {
-                ins.DOFade(0.0f, 0.5f).SetEase(Ease.InOutSine).OnComplete(() => {
-                    ins.gameObject.SetActive(false);
-                });
+                ins.DOFade(0.0f, 0.5f).SetEase(Ease.InOutSine);
             }
+            //if (hasChangedColor)
+            //{
+            //    //hasChangedColor = false;
+            //    hasInteracted = true;
+            //}
+
+            //if (ins != null)
+            //{
+
+            //}
         }
     }
 
@@ -68,6 +71,17 @@ public class FadeRed : MonoBehaviour
         {
             ChangeEmissionColor();
             hasChangedColor = true;
+
+            if (hasChangedColor)
+            {
+                hasInteracted = true;
+                if (hasInteracted)
+                {
+                    ins.DOFade(0.0f, 0.5f).SetEase(Ease.InOutSine).OnComplete(() => {
+                        ins.gameObject.SetActive(false);
+                    });
+                }
+            }
         }
     }
 
