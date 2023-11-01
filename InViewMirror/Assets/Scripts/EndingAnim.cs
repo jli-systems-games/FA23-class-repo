@@ -16,6 +16,8 @@ public class EndingAnim : MonoBehaviour
     public GameObject quitBtn;
     public GameObject restartBtn;
 
+    public GameObject endButterfly;
+
     void Start()
     {
         StartCoroutine(waitCheck()); 
@@ -24,6 +26,7 @@ public class EndingAnim : MonoBehaviour
     IEnumerator waitCheck()
     {
         yield return new WaitForSeconds(25f);
+        endButterfly.SetActive(true);
         transform.DORotate(new Vector3(0.85f, -2.5f, -0.5f), 9f).SetEase(Ease.InOutSine);
         yield return new WaitForSeconds(12f);
         endScreen.DOFade(1f, 6f).SetEase(Ease.InOutSine);

@@ -91,7 +91,5 @@ public class FadeRed : MonoBehaviour
         {
             renderer.material.DOColor(targetColor, "_EmissionColor", tweenDuration).SetEase(Ease.InOutSine);
         }
-
-        
     }
 }
