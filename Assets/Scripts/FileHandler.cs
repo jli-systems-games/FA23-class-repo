@@ -33,8 +33,59 @@ public class FileHandler
         this._dataFileName = dataFileName;
     }
 
+
+    public Data Load()
+    {
+        string fullPathName = Path.Combine(_dataDirectoryPath, _dataFileName);
+        Data loadedData = null;
+
+        if (File.Exists(fullPathName))
+        {
+
+            try
+            {
+                string dataToLoad = "";
+
+                using (FileStream stream = new FileStream(fullPathName, FileMode.Open))
+                {
+                    using (StreamReader reader = new StreamReader(stream))
+                    {
+                        dataToLoad = reader.ReadToEnd();
+                    }
+                }
+
+                loadedData = JsonUtility.FromJson<Data>(dataToLoad);
+            }
+            catch
+            {
+                Debug.LogError("Can't save data.");
+            }
+            return loadedData;
+        }
+    }
+
+
     public void Save(Data data)
     {
+        string fullPathName = Path.Combine(_dataDirectoryPath, _dataFileName);
 
+        try
+        {
+            Directory.CreateDirectory(Path.GetDirectoryName(fullPathName));
+
+            string dataToStore = JsonUtility.ToJson(data, true);
+
+            using(FileStream stream = new FileStream(fullPathName, FileMode.Create))
+            {
+                using (StreamWriter writer = new StreamWriter(stream))
+                {
+                    writer.Write(dataToStore);
+                }
+            }
+        }
+        catch
+        {
+            Debug.LogError("Can't save data.");
+        }
     }
 }

@@ -7,6 +7,9 @@ public class DataManager : MonoBehaviour
 {
     public static DataManager Instance { get; private set; }
 
+    public string fileName;
+    private FileHandler _fileHandler;
+
     private Data _gameData;
     private List<IDataPersistence> _dataPersistences;
 
@@ -22,6 +25,7 @@ public class DataManager : MonoBehaviour
 
     private void Start()
     {
+        this._fileHandler = new FileHandler(Application.persistentDataPath, fileName);
         this._dataPersistences = FindAllPersistenceObjects();
     }
 
