@@ -1,0 +1,222 @@
+fileFormatVersion: 2
+guid: 2be05d3b5342e4f28bf722f35bd6b463
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: d1ca5a16111b643f98aec07ff4a4a67f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: cc87d800e5b8d46d283f5e9a3085eefa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: b4196e339fb914c21a19f580af519d31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: f2c7e720330ff43f890f5f74f90c85e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: 5f0dd5045e64c41168db03cdc7242be4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.006
+    second: {fileID: 2100000, guid: 57cdf2e187fde49af8bbf27e63abf3b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.007
+    second: {fileID: 2100000, guid: f6962c7bbfe8b4e088e7f65ae92f2ece, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.009
+    second: {fileID: 2100000, guid: 4a5ac8491b56e43f092c93076d45e1d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.010
+    second: {fileID: 2100000, guid: 051459882052f42519d006010ead7015, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.011
+    second: {fileID: 2100000, guid: 0b6150a1265b04486ae12670fd95d674, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.013
+    second: {fileID: 2100000, guid: e3baba768a53a4f79a1a49c05022fd0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.015
+    second: {fileID: 2100000, guid: 8690e5aac7fc7491cab656c92ca764ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.017
+    second: {fileID: 2100000, guid: 718b1760c6d5340e28739c101c8974b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.018
+    second: {fileID: 2100000, guid: ef709d3b08cf34e5d8ad9fff1716e21f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.021
+    second: {fileID: 2100000, guid: c89250ab4f4d94ab6a7864935c0f393c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.022
+    second: {fileID: 2100000, guid: 593de9ce953734c71b0e6742ac3c05ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.027
+    second: {fileID: 2100000, guid: ec9075b1157e94c75944a938ffc140ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.028
+    second: {fileID: 2100000, guid: 08f4c0399f7294b949a91856b0264b9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.030
+    second: {fileID: 2100000, guid: a29f990bd4ac547f088332bdf2ea67fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.033
+    second: {fileID: 2100000, guid: 26475c9f4cd99490b90157c5f8decb18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.035
+    second: {fileID: 2100000, guid: 9d1c443de88584468bba316ad9d9ec16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.036
+    second: {fileID: 2100000, guid: fad39cecd871c407aad5d8bd0643079c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.038
+    second: {fileID: 2100000, guid: a3bb924a5066445a48e97dd080ee3256, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: 1fd9ae80620861.5ce65be743faa
+    second: {fileID: 2800000, guid: 1caeaa53ab6304c2680df7f106ee4472, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: 707106
+    second: {fileID: 2800000, guid: 4235fb21335ed483b9d6b8449d7a6e64, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: FZvKQT
+    second: {fileID: 2800000, guid: 9db81f884b8b74acf8a344a2d24d4546, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Vintage-newspapers-vector-template-06
+    second: {fileID: 2800000, guid: 889c7fbcfdbde404495a70b3ab754980, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: av967f5f53e44220a3dbd
+    second: {fileID: 2800000, guid: b4ecc077c12594509bf07b483d23af45, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: black-alcohol-beer-label-design-template-220648b4e4d408cfa477f895210a4738_screen
+    second: {fileID: 2800000, guid: 6946e95cd27244bd593faaedf3e02997, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: blda3free.jpg77880a7b-8a3a-4b30-b38b-227986a31160Large
+    second: {fileID: 2800000, guid: 4aa6e01f34dda4e4886c437d5918a1fd, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: brick_texture3436
+    second: {fileID: 2800000, guid: 37952eab4ab3d4f54ab5a15189c931e7, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: brick_texture3436-bump.normal
+    second: {fileID: 2800000, guid: 26f47ee6af10f47138d7333a87e96704, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: c3c74df122130bafaf174d98dfa47845
+    second: {fileID: 2800000, guid: 7db868c3ed5544832b26ce98de573b2b, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: cobblestone-arched-pavement-road-edge-courses-sidewalk-seamless-tileable-repeating-d-rendering-textu.normal
+    second: {fileID: 2800000, guid: ef46f79c7a34e44b595a48303db674f6, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: cobblestone-arched-pavement-road-edge-courses-sidewalk-seamless-tileable-repeating-d-rendering-texture-road-curved-134977193
+    second: {fileID: 2800000, guid: aaa5aeb8530cc42efb634f1c49dbd1a3, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: dark_wood_texture_by_mutaaex_d4n7q00-fullview
+    second: {fileID: 2800000, guid: b8677d1369e834b7f865f49b7c6aaab4, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: dustbin-3-textured-old-01
+    second: {fileID: 2800000, guid: b9606dc2256e54b8bb397016fd1f6620, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: gilx-gurantz-full-front
+    second: {fileID: 2800000, guid: db9e0f097d503430c981bfd0573df70b, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: png-clipart-autumn-leaves-leaf-filtre-autumn-leaf-photofiltre
+    second: {fileID: 2800000, guid: 7a9d8f554bdf64eee88c52c830148a8c, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: rock-festivali-retro-ahsap-poster-2177-P-ORG
+    second: {fileID: 2800000, guid: d6a733af682cd418497b00b663a04585, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: unnamed (1)
+    second: {fileID: 2800000, guid: ecb3e2758cf6b4c34950524b811f4dba, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: unnamed (2)
+    second: {fileID: 2800000, guid: 935a000171c6f4c139bf782884aa248a, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: cc45016b844e7624dae3aec10fb443ea, type: 3}
+  reverseAxis: 0
+  renderPipeline: 1
