@@ -7,6 +7,9 @@ public class DataManager : MonoBehaviour
 {
     public static DataManager Instance { get; private set; }
 
+    public string fileName;
+    private FileHandler _fileHandler;
+
     private Data _gameData;
     private List<IDataPersistence> _dataPersistences;
 
@@ -22,6 +25,8 @@ public class DataManager : MonoBehaviour
 
     private void Start()
     {
+        this._fileHandler = new FileHandler(Application.
+            persistentDataPath, fileName);
         this._dataPersistences = FindAllPersistenceObjects();
 
         NewGame();
@@ -35,9 +40,10 @@ public class DataManager : MonoBehaviour
     public void LoadGame()
     {
         //load save data
+        this._gameData = _fileHandler.Load();
 
         //if no data to load, throw a message
-        if(this._gameData == null)
+        if (this._gameData == null)
         {
             Debug.Log("No data to load!");
         }
@@ -53,6 +59,7 @@ public class DataManager : MonoBehaviour
 
     public void SaveGame()
     {
+        
         //put data in scripts thats need to be updated
         foreach (IDataPersistence dataPs in _dataPersistences)
         {
@@ -61,6 +68,7 @@ public class DataManager : MonoBehaviour
 
         Debug.Log("Save health " + _gameData.health.ToString());
         //save data to file using our file handler
+        _fileHandler.Save(_gameData);
     }
 
     public void OnApplicationQuit()
