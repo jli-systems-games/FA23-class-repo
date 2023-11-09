@@ -44,7 +44,7 @@ public class PlayerStartAnim : MonoBehaviour
 
     IEnumerator waitUp()
     {
-        yield return new WaitForSeconds(8f);
+        yield return new WaitForSeconds(7.5f);
         goldOne.SetActive(true);
         leoOne.SetActive(false);
         //blackScreen.DOFade(1f, 3f).SetEase(Ease.InOutSine).OnComplete(() =>

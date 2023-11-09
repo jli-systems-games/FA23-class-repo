@@ -16,7 +16,7 @@ public class QuitWaiting : MonoBehaviour
 
     IEnumerator waitEnding()
     {
-        yield return new WaitForSeconds(70f);
+        yield return new WaitForSeconds(80f);
         quitBtn.SetActive(true);
         quitTxt.DOFade(1f, 12f).SetEase(Ease.InOutSine);
     }
