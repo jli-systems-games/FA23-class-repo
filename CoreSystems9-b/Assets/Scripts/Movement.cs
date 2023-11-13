@@ -5,7 +5,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     public float speed = 100;
-    public Transform obj;
+    public Transform obj;   
 
     public void Update()
     {

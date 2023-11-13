@@ -21,7 +21,7 @@ public class lighting : MonoBehaviour
         innerRadius = l.intensity;
         innerRadiusMin = innerRadius - innerRadiusRange;
         innerRadiusMax = innerRadius + innerRadiusRange;
-        Debug.Log(innerRadius);
+        //Debug.Log(innerRadius);
     }
 
     // Update is called once per frame
@@ -35,7 +35,7 @@ public class lighting : MonoBehaviour
         }
         innerRadius += innerRadiusChange;
         l.intensity = (float) innerRadius;
-        Debug.Log(innerRadius);
+        //Debug.Log(innerRadius);
 
     }
 }

@@ -10,7 +10,7 @@ public class OpenCanvas : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collider)
     {
         canvas.SetActive(true);
-        
+        Debug.Log("sdfsdf");
     }
     void OnTriggerExit2D(Collider2D collider)
     {
