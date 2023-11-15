@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be0f548f342370a4498cb01409d04ae4, type: 3}
+  m_Name: Amber
+  m_EditorClassIdentifier: 
+  nameTitle: Amber
+  color: {r: 0.4392157, g: 0.8235294, b: 0.90588236, a: 1}
+  currentConcern: '"My friends feel like they''re drifting away from me."'
+  feeling: Lonely
+  initialConvo:
+  - Hi
+  - 
+  - I'm doing okay!
+  - Well
+  - I mean, no actually
+  - Things have actually been going pretty shitty.
+  - I just got used to saying that I'm fine, you know?
+  - 
+  - 
+  - Thanks :)
+  - It's been a while since I've felt like I could talk about myself
+  - No one seems to want to listen to me lately.
+  - I don't know what happened but like...
+  - My friends have been acting kind of weird.
+  - Distant.
+  - I don't know what I did, or what I can do to fix it :(
+  initialResponses:
+  - 
+  - Hello! How are you doing today?
+  - 
+  - 
+  - 
+  - 
+  - 
+  - I get that, it's easier a lot of the time
+  - But this is a safe space to express how you really feel.
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  firstBranch:
+  - 
+  - 
+  - Maybe...
+  - I don't know, I've known these guys for so long.
+  - It's kind of hard to just... let go like that
+  - ...
+  - I'll sleep on it
+  - Thanks for listening.
+  firstBranchResponses:
+  - You deserve better.
+  - Maybe it's time to start looking for new friends.
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  secondBranch:
+  - 
+  - Not yet.
+  - I'm kind of scared to, since they've been so cold lately
+  - 
+  - 
+  - 
+  - Yeah... I guess you're right.
+  - I never thought about it that way but
+  - Friends who I can't talk to aren't really friends worth keeping
+  - Thank you, I feel much better about all this now :)
+  secondBranchResponses:
+  - Have you tried talking to them?
+  - 
+  - 
+  - It doesn't hurt to try!
+  - At the very least you'll get some insight
+  - If they aren't willing to listen it might be time to find new friends
+  - 
+  - 
+  - 
+  - 
+  choiceOne: Have you tried talking to them?
+  choiceTwo: You deserve better.
