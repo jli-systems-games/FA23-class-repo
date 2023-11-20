@@ -1,0 +1,105 @@
+title: Start
+tags: 
+colorID: 0
+position: 0,0
+---
+
+<<Scene park_bg>>
+
+<<PlayAudio ambient_birds 0.5 loop>>
+
+<<Act Max cool-girl left center #D3C6F7>>
+
+
+2005 ; A SMALL NEIGHBOORHOOD PARK
+
+Max: ...
+Max: This sucks.
+Max: I wanna go home and play Mario Kart with Michael.
+
+A ball flies across the grassy field, landing at Max's feet. 
+
+<<Act ???? biz-guy 1.25 center #FDBE77>>
+
+// animate Adam into new position in right-half + center, within 0.5 seconds
+<<Move ???? right center 0.5>>
+<<PlayAudio music_funny 1.0 loop>>
+
+????: Hey!!!! Watch out!!!
+????: Uh, uh oh-
+
+The ball hits Max on the side of the head, causing him to lose his footing and stumble a little. It bounces off his head and rolls on the ground before stopping a few feet away.
+
+// horizontally flips Eve actor to face Adam
+<<Shake Max 1.0>>
+
+Max: Owwwwww!!
+????: Oh no!! Are you okay?
+Max: ...
+????: I'm so sorry!!!! I didn't mean to hit you with the ball... I was just trying to kick it... in... the... nevermind!
+????: Here, take this.
+
+The redheaded boy takes something out of his pocket. It's a little folded-up cookie inside a small plastic bag, but it's all smushed up. The largest piece is barely bigger than a dime. There's a piece of paper crumpling in there as well.
+
+????: A fortune cookie! 
+Max: ...?
+Max: ...Thanks.
+????: Wow, you don't really talk that much! We should be friends!
+????: My mom always tells me I talk too much, so I should share some talking with you!
+????: What's your na-
+
+Somewhere in the distance, a big booming voice yells "MAX! GET OVER HERE!"
+
+Max: ...!?
+????: Oh, my dad's here already.
+????: Thanks for getting my ball!! I'll see you around the park!
+
+"MAX! ¡ÁNDALE!"
+
+????: Okay bye!!!!
+
+The redheaded boy runs off.
+
+Max: ...
+Max: That was the first time I ever spoke to someone my age at the park.
+
+
+
+// Yarn shortcut choices, an easy way to make branching options
+-> Eve gets upset with Adam
+	<<Shake Max 1.0>>
+	Max: WHAT DO YOU WANT???
+	Adam: I just wanted to see if you liked using Yarn Spinner.
+	Max: ... It's fine. Thanks. Now leave me alone.
+-> Adam asks Eve a question
+	Adam: Do you think Yarn Spinner is easy to use?
+	Max: Not when you're bothering me.
+	Adam: Oh, I didn't realize you were busy. Sorry.
+
+// hide Adam actor and remove from the scene
+<<Hide Adam>>
+// Stop all sound playback
+<<StopAudioAll>>
+
+Max: Ok, now to finally write that visual novel.
+<<Flip Max>>
+<<PlayAudio music_romantic>>
+Max: I can finally write my epic romance about -
+<<StopAudioAll>>
+<<Flip Max>>
+<<wait 1.5>>
+<<Flip Max>>
+Max: Wait... where's my laptop? It's not here.
+<<Shake Max>>
+Max: Adam! Have you seen my laptop???
+
+<<PlayAudio music_funny>>
+<<Flip Max>>
+<<Move Max 1.25 center 1.0>>
+Max: ADDDDAAAMMMMMMM!!!
+
+// fade to black, from 0% opacity to 100% opacity, in 2.0 seconds
+<<Fade black 0.0 1.0 2.0>>
+THE END.
+
+===
