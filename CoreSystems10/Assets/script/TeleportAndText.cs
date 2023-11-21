@@ -7,8 +7,6 @@ public class TeleportAndText : MonoBehaviour
     public GameObject player;
     public Vector2 destination;
 
-
-
     void OnTriggerEnter2D()
     {
         player.transform.position = destination;
