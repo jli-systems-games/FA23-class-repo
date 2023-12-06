@@ -6,9 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Home.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Samples/Yarn Spinner/2.4.0/Visual Novel/Scenes/Visual Novel.unity
-    guid: 141e0d5203fa75745894e9e4945e7743
+    path: Assets/Scenes/Level Select.unity
+    guid: a7e5ab05fb78b024c882701fdd2d39c9
+  - enabled: 1
+    path: Assets/Scenes/Childhood.unity
+    guid: 9aa7166253d56c742a67c83ccd99fa26
+  - enabled: 1
+    path: Assets/Scenes/Middle.unity
+    guid: 687f8548124245f4eaa088f5300b2dd8
+  - enabled: 1
+    path: Assets/Scenes/College.unity
+    guid: cbb28b11366197649a748bf852266311
   m_configObjects: {}

@@ -1,0 +1,208 @@
+﻿title: ParkOne
+tags: 
+colorID: 0
+position: -51,-56
+---
+
+
+
+<<Scene parkbg>>
+
+<<PlayAudio music_romantic 0.5 loop>>
+
+<<wait  0.6>>
+A SMALL NEIGHBOORHOOD PARK
+
+<<Act Max childmich left center #D3C6F7>>
+
+Max: ...
+Max: This sucks.
+Max: I wanna go home and play Mario Kart with Michael.
+
+A ball flies across the grassy field, landing at Max's feet. 
+
+<<Act ???? childmax 1.25 center #FDBE77>>
+
+// animate Adam into new position in right-half + center, within 0.5 seconds
+<<Move ???? right center 0.5>>
+
+????: Hey!!!! Watch out!!!
+????: Uh, uh oh-
+
+The ball hits Max on the side of the head, causing him to lose his footing and stumble a little. It bounces off his head and rolls on the ground before stopping a few feet away.
+
+// horizontally flips Eve actor to face Adam
+<<Shake Max 1.0>>
+
+Max: Owwwwww!!
+????: Oh no!! Are you okay?
+Max: ...
+????: I'm so sorry!!!! I didn't mean to hit you with the ball... 
+????: I was just trying to kick it... in... the... nevermind!
+????: Here, take this.
+
+The redheaded boy takes something out of his pocket. It's a little folded-up cookie inside a small plastic bag, but it's all smushed up. The largest piece is barely bigger than a dime. There's a piece of paper crumpling in there as well.
+
+????: A fortune cookie! 
+Max: ...?
+Max: ... Thanks.
+????: Wow, you don't really talk that much! We should be friends!
+????: My mom always tells me I talk too much, so I should share some talking with you!
+????: What's your name?
+Max: ...
+
+Somewhere in the distance, a big booming voice yells "MAX! GET OVER HERE!"
+
+Max: ...!?
+????: Oh, my dad's here already.
+????: Thanks for getting my ball!! I'll see you around the park!
+
+"MAX! ¡MAS RAPIDO!"
+
+????: Okay bye!!!!
+
+<<Move ???? 1.25 center 0.3>>
+
+The redheaded boy runs off.
+
+Max: (...)
+Max: (That was the first time I ever spoke to someone my age at the park.)
+Max: (...)
+Max: (... At least Michael will be happy I made a friend.)
+
+
+<<Fade black 0.0 1.0 1.0>>
+<<wait 2.0>>
+
+THE NEXT DAY
+
+<<Fade black 1.0 0.0 0.5>>
+
+Max: Michael...
+
+<<Act Michael childmike right center #8b9e6f>>
+
+Max: I don't want to go over there...
+Michael: What? But everyone's playing soccer over there.
+Max: I know. That's why I don't want to go.
+Michael: ...
+Michael: Max. You should make a friend or two. It can't just be me.
+Max: Yes it can.
+Michael: Max.
+Max: ...
+Max: They're just so... loud.
+Max: Last time, someone kicked a ball at my hea-
+
+Max's sentence is interrupted once again by a ball whizzing past his ear. 
+
+Max: ...
+Max: ... at my head. Just like that.
+
+<<Shake Michael 0.5>>
+
+Michael: MAX!!! Are you okay???
+Max: Never been better.
+
+<<Move Michael center center 0.5>>
+<<Move ???? right center 0.5>>
+<<wait  0.5>>
+
+????: Sorry!! Are you oka- Oh! You're the guy I hit last week too!
+Max: ... Hi.
+????: Hi again! I did say that I'll see you around, but I didn't expect it to be so soon- 
+????: - wait, ARE YOU OKAY?!?
+Max: Never been better.
+Michael: Hey! You better apologize to Max!
+????: I'm sorry!! 
+????: Wait, your name is Max too?
+
+<<Hide ????>>
+<<Act Max? childmax right center #FDBE77>>
+
+Max?: My name is Max!!
+Max?: We should be best friends!
+Michael: Why should he be your best friend over something so stupid?
+Max: Michael, that's not nice.
+Michael: But you're already my best friend! And brother!
+Max: I thought you wanted me to make more friends.
+Max?: Yea! My mom says that the more the merrier!
+Michael: Your mom is stupid.
+Max: Michael. That is mean.
+Max?: Yea... that is mean!
+Michael: I don't care. And our Max is better anyways.
+Max?: Our?
+Michael: Yea! Our family's Max!
+Michael: You're an impostor!
+Max: Like in Among Us.
+Max?: You like Among Us too?!?!
+Max?: We really should be best friends!!!!
+Max: ...
+Michael: No! Max plays Among Us with me! We are the best imposter duo of all time!
+Max?: Well Max can play Among Us with me! Then we can also be the best duo of all time!
+Michael: That's not how being the best of all time works!
+Max?: Says who?
+Michael: Says... everyone!
+Max: This is stupid.
+Michael: Max! Tell Max about how we're the best duo in Among Us!
+Max?: No, Max, tell him how you're gonna play with me and become the best duo of all time!
+Max: This is confusing. And I don't even play Among Us that much.
+Michael: Max is right! You need a new name, Impostor Max!
+Max?: What? Why me?
+Michael: Because our Max is better.
+Max?: That's objective!
+
+<<Shake Michael 0.3>>
+Michael: No, that's subjective! You're stupid, Impostor Max!
+Max: Michael, that's mean. 
+Max: And I can use a new name.
+
+<<Shake Michael 0.3>>
+Michael: No!!!!!
+Max: You can call me... M.
+Max?: Okay!
+Michael: ...
+Michael: ...
+Michael: Fine.
+
+The three kids stand in silence for a bit. 
+
+Max?: Nice to meet you, M!
+
+<<Hide Max>>
+<<Act M childmichsmile left center #D3C6F7>>
+
+M:...Yea.
+Michael:...You're still an impostor though!
+
+While Michael and Max are bantering over Among Us, you hear the same booming voice from yesterday from somewhere across the park.
+
+¡¡¡¡MAAAAX!!!!
+
+Max?: Oh come on, I just got here!
+Max?: Sorry guys, I have to go now. My dad came to pick me up.
+Max?: Bye now!!!!
+
+<<Move Max? 1.25 center 0.3>>
+
+M: ...Bye.
+Michael: So that was your new friend?
+<<Hide M>>
+<<Act M childmich left center #D3C6F7>>
+
+M: ...Yea.
+Michael: ...He's cool. But I'm still your best friend, right?
+M: ...Yea. I met him yesterday. 
+M: You're my best friend brother. 
+Michael: That I am!
+Michael: Do you wanna play when we get home?
+M: Yes.
+Michael: Okay! Let's go home then!
+
+<<Hide M>>
+<<Act M childmichsmile left center #D3C6F7>>
+M: Okay.
+
+
+<<Fade black 0.0 1.0 1.0>>
+
+===

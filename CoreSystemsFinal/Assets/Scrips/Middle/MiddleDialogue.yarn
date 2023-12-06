@@ -1,0 +1,124 @@
+﻿title: MiddleSchool1
+tags:
+---
+<<Scene courtyardbg>>
+
+<<PlayAudio music_romantic 0.5 loop>>
+
+<<wait  0.6>>
+JONEY BENDS MIDDLE SCHOOL - CLASSROOM
+
+<<Act M middlemich left center #D3C6F7>>
+
+M: (God I hate this school.)
+M: (I hate my classmates, my teachers, my homework, my mom, my dad, and my classmates.)
+M: (I wanna kill you and destroy you. I want you died.)
+
+<<Hide M>>
+<<Act M middlemichsmile left center #D3C6F7>>
+
+M: (At least I have my yaoi to make me feel better.)
+M: Now Sasuke and Naruto, I now pronounce you husband and husband...
+
+<<Act Max middlemax 1.25 center #FDBE77>>
+<<Move Max right center 0.4>>
+
+Max: Hi M!
+
+M quickly slams his sketchbook shut.
+
+<<Hide M>>
+<<Act M middlemich left center #D3C6F7>>
+
+M: Hey.
+Max: Heyyyy!! So, what are you doing around here?
+M: I go to school here.
+Max: Oh yeah! Me too!! Yea!! Hahaha..
+Max: I didn't forget... I just... forgot... uhhh...
+
+<<wait 0.5>>
+<<Hide Max>>
+<<Act Max middlemaxflush right center #FDBE77>>
+
+Max: Uhhh...
+M: Do you want a chicken nugget?
+Max: Uhhh... Yes! I love chicken nuggets! 
+
+M silently passes a chicken nugget over to Max.
+
+<<Hide Max>>
+<<Act Max middlemax right center #FDBE77>>
+
+Max: Thanks.
+M: No problem.
+Max: Can I see what you're drawi-
+<<Shake M 0.2>>
+M: NO.
+
+<<wait 0.3>>
+
+<<Hide Max>>
+<<Act Max middlemaxflush right center #FDBE77>>
+
+Max: Oh- okay!
+
+<<wait 0.5>>
+
+Max: (God.. this is so awkward! I am so bad at talking.)
+Max: (Normally I can't shut up, but I always run out of things to say to M.)
+Max: (I wish we had more in common.)
+
+<<wait 0.3>>
+
+M: Did you watch the new BNHA episode?
+Max: ...yes! I did!
+M: Don't lie to me Max.
+Max: ...
+Max: ...Sorry. I got my television permissions taken away after trying to reenact Goku vs. Superman with Nico...
+Max: We may or may not have broken my mom's artisan vase, you know, the one. And her artisan plates.
+
+<<wait 0.5>>
+
+<<Hide M>>
+<<Act M middlemichsmile left center #D3C6F7>>
+
+M laughs out loudly.
+M: Seriously?! That's hilarious.
+
+<<Hide Max>>
+<<Act Max middlemax right center #FDBE77>>
+
+Max: Yeah... yeah! It was crazy!
+Max: Okay, it's not really my fault that the plates couldn't withstand the sheer power of my Kamehameha.
+M: Hahahahaha!!!
+Max: Heheh.
+M: Man, I wish I could do that to my dad's stupid glass sculpture of a leaf blower.
+M: That thing is such a waste of space on my shelf. I'm forced to shelve my manga with my mom's biology textbooks. 
+Max: NOO!!! Not Johnny!! Please, spare him!
+M: You should come by my room some time. Maybe you can take him home with you. Please.
+
+<<Hide Max>>
+<<Act Max middlemaxflush right center #FDBE77>>
+
+Max: (?!)
+Max: (Yea! I would love to!!)
+Max: Asfdjsddhfhkekdhjjfajhdhhhhfhghgghhghhghh
+Michelle: I think you got your speech and thought bubbles mixed up.
+Max: ...
+
+The bell rings, saving Max from further embarassment.
+
+Max: OKAY BYE! HAVE FUN AT CLASS I'LL SEE YOU TOMORROW!!!!!!
+M: Bye.
+
+<<Move Max 1.25 center 0.2>>
+
+M: (Max is fun. I like talking to him.)
+M: (I wish we could hang out more. But he's always playing with Michael.)
+M: (...)
+M: (Michael's been weird lately. He always lets me play with them, but it feels... kind of reluctant.)
+M: (I don't want to intrude. But... I do miss hanging out with the three of us.)
+
+<<Fade black 0.0 1.0 1.0>>
+
+===

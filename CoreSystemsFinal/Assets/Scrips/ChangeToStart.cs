@@ -7,6 +7,6 @@ public class ChangeToStart : MonoBehaviour
 {
     public void OnClick()
     {
-        SceneManager.LoadScene("Visual Novel");
+        SceneManager.LoadScene("Childhood");
     }
 }
